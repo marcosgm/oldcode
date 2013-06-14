@@ -1,0 +1,258 @@
+// author : Asanga Udugama (adu@comnets.uni-bremen.de)
+// date : 2005-09-10
+// compile & link : gcc -o get_routing_table get_routing_table.c 
+
+
+//Netlink API: http://people.suug.ch/~tgr/libnl/doc/group__nl.html
+#include <stdio.h>
+#include <strings.h>
+
+#include <sys/socket.h>
+#include <linux/netlink.h>
+#include <linux/rtnetlink.h>
+#include <assert.h>
+
+#define BUFSIZE 8192
+
+// buffer to hold the RTNETLINK request
+typedef struct {
+	struct nlmsghdr nl;
+	struct rtmsg    rt;
+	char            buf[BUFSIZE];
+} req_t;
+
+
+// buffer to hold the RTNETLINK reply(ies)
+char buf[BUFSIZE];
+
+// RTNETLINK message pointers & lengths
+// used when processing messages
+
+
+
+void form_request(req_t *req)
+{
+	assert (req!=NULL);
+  // initialize the request buffer
+	bzero(req, sizeof(req_t));
+
+  // set the NETLINK header
+	req->nl.nlmsg_len = NLMSG_LENGTH(sizeof(struct rtmsg));
+	req->nl.nlmsg_flags = NLM_F_REQUEST | NLM_F_DUMP;
+	req->nl.nlmsg_type = RTM_GETROUTE;
+
+  // set the routing message header
+	req->rt.rtm_family = AF_INET;
+	req->rt.rtm_table = RT_TABLE_MAIN;
+}
+
+int send_request(int fd, req_t *req, struct sockaddr_nl *pa, struct msghdr *msg, struct iovec *iov)
+{
+	int rtn = 0; //return value
+	assert (req!=NULL);
+	assert (pa!=NULL);
+	assert (msg!=NULL);
+	assert (iov!=NULL);
+  // create the remote address
+  // to communicate
+	bzero(pa, sizeof(struct sockaddr_nl));
+	pa->nl_family = AF_NETLINK;
+
+  // initialize & create the struct msghdr supplied
+  // to the sendmsg() function
+	bzero(msg, sizeof(struct msghdr));
+	msg->msg_name = (void *) pa;
+	msg->msg_namelen = sizeof(struct sockaddr_nl);
+
+  // place the pointer & size of the RTNETLINK
+  // message in the struct msghdr 
+	iov->iov_base = (void *) &(req->nl); //(void *) &req.nl;
+	iov->iov_len = req->nl.nlmsg_len;
+	msg->msg_iov = iov;
+	msg->msg_iovlen = 1;
+
+  // send the RTNETLINK message to kernel
+	rtn = sendmsg(fd, msg, 0);
+	return rtn;
+}
+
+int recv_reply(int fd, char *buf)
+{
+	char *p=NULL;
+	struct nlmsghdr *nl_msg_p=NULL;
+	int bytes_rcvd = 0;
+	int total_bytes_rcvd = 0;
+
+  	// initialize the socket read buffer
+	bzero(buf, BUFSIZE);
+
+	//p points to buf[0];
+	p = buf;
+
+	// read from the socket until the NLMSG_DONE is
+	// returned in the type of the RTNETLINK message
+	// or if it was a monitoring socket
+	while(p < (buf+BUFSIZE)) //while(1)
+	{
+		bytes_rcvd = recv(fd, p, BUFSIZE - total_bytes_rcvd, 0); //p points to somewhere inside buf[];
+
+		nl_msg_p = (struct nlmsghdr *) p;
+
+		if(nl_msg_p->nlmsg_type == NLMSG_DONE) 
+			break;
+
+		// increment the buffer pointer to place
+		// next message
+		p += bytes_rcvd;
+
+		// increment the total size by the size of 
+		// the last received message
+		total_bytes_rcvd += bytes_rcvd;
+
+		/*if((la.nl_groups & RTMGRP_IPV4_ROUTE) == RTMGRP_IPV4_ROUTE)
+			break;*/
+	}
+	return total_bytes_rcvd;
+}
+
+
+
+void read_reply(char *buf, int nl_length)
+{
+	// string to hold content of the route 
+	// table (i.e. one entry) 
+	char dsts[24], gws[24], ifs[16], ms[24];
+	int metric=-1;
+	int priority=-1;
+	struct nlmsghdr *nlp = NULL;
+	struct rtmsg *rtp=NULL;
+	int rt_length;
+	struct rtattr *rtap=NULL;
+	
+	// outer loop: loops thru all the NETLINK
+	// headers that also include the route entry
+	// header 
+	nlp = (struct nlmsghdr *) buf;
+	for(; NLMSG_OK(nlp, nl_length); nlp=NLMSG_NEXT(nlp, nl_length))
+	{
+
+    		// get route entry header
+		rtp = (struct rtmsg *) NLMSG_DATA(nlp);
+
+		// we are only concerned about the
+		// main route table
+		if(rtp->rtm_table != RT_TABLE_MAIN)
+			continue;
+
+    // init all the strings
+		bzero(dsts, sizeof(dsts));
+		bzero(gws, sizeof(gws));
+		bzero(ifs, sizeof(ifs));
+		bzero(ms, sizeof(ms));
+		metric=-1;
+		priority=-1;
+
+    // inner loop: loop thru all the attributes of
+    // one route entry 
+		rtap = (struct rtattr *) RTM_RTA(rtp);
+		rt_length = RTM_PAYLOAD(nlp);
+		for(; RTA_OK(rtap, rt_length); rtap=RTA_NEXT(rtap,rt_length))
+		{
+			switch(rtap->rta_type) 
+			{
+		        // destination IPv4 address
+				case RTA_DST:
+					inet_ntop(AF_INET, RTA_DATA(rtap), 
+							dsts, 24);
+					break;
+        		// next hop IPv4 address
+				case RTA_GATEWAY:
+					inet_ntop(AF_INET, RTA_DATA(rtap), 
+							gws, 24);
+					break;
+			//Route metrics
+				case RTA_METRICS:
+					metric = *((int *) RTA_DATA(rtap));
+					break;
+			//Route priority
+				case RTA_PRIORITY:
+					priority = *((int *) RTA_DATA(rtap));
+					break;
+        		// unique ID associated with the network interface
+				case RTA_OIF:
+					sprintf(ifs, "%d", 
+							*((int *) RTA_DATA(rtap)));
+				default:
+					break;
+			}
+		}
+		sprintf(ms, "%d", rtp->rtm_dst_len);
+
+		printf("Network %s/%s gw %s, interface %s, metric %d, priority %d\n", 
+		       dsts, ms, gws, ifs, metric, priority);
+	}
+}
+/*
+struct rtattr
+{
+    unsigned short rta_len;     // Longitud de la opción 
+    unsigned short rta_type;    // Tipo de opción 
+    // Los datos vienen a continuación 
+};
+
+//RTM_NEWROUTE, RTM_DELROUTE, RTM_GETROUTE
+struct rtmsg
+{
+    unsigned char  rtm_family;    //Familia de direcciones de la ruta 
+    unsigned char  rtm_dst_len;   // Longitud del destino 
+    unsigned char  rtm_src_len;   // Longitud del origen 
+    unsigned char  rtm_tos;       // Filtro TOS 
+    unsigned char  rtm_table;     // Identificador de la tabla deenrutamiento 
+    unsigned char  rtm_protocol;  // Protocolo de enrutamiento.
+    unsigned char  rtm_scope;    
+    unsigned char  rtm_type;      
+    unsigned int   rtm_flags;     
+};
+*/
+
+void open_socket (int *fd, struct sockaddr_nl *la)
+{
+	// open socket
+	*fd = socket(AF_NETLINK, SOCK_RAW, NETLINK_ROUTE);
+
+	// setup local address & bind using
+	// this address
+	bzero(la, sizeof(struct sockaddr_nl));
+	la->nl_family = AF_NETLINK;
+	la->nl_pid = getpid();
+	bind(*fd, (struct sockaddr*) la, sizeof(struct sockaddr_nl));
+}
+
+int main(int argc, char *argv[])
+{
+	// variables used for
+	// socket communications
+	int sock_fd = -1;
+	struct sockaddr_nl la;
+	struct sockaddr_nl pa;
+	struct msghdr msg;
+	struct iovec iov;
+	req_t req;
+	
+	int rcvd_length = 0;
+
+  
+	open_socket(&sock_fd, &la);
+
+	// sub functions to create RTNETLINK message,
+	// send over socket, reveive reply & process
+	// message
+	form_request(&req);
+	send_request(sock_fd, &req, &pa, &msg, &iov);
+	rcvd_length = recv_reply(sock_fd, buf);
+	read_reply(buf, rcvd_length);
+
+  	// close socket
+	close(sock_fd);
+}
+
