@@ -1,0 +1,52 @@
+This probe will test if Shinken and Zimbra work fine at SFL.
+If not, it will call the Support Phone and notify of a disruption in the service
+
+It is composed of:
+-This script, that will download the mail alert from Zimbra
+-This script, that will tweak the check_nrpe command to fail
+-NRPE custom command on officesrv-01
+-Shinken service check and contact in case of command fail, will send to probe@savoirfairelinux.com
+-Zimbra will receive mail notifications
+-Asterix (on localhost) configured to handle automated calls and playing a WAV file with a warning message.
+
+Flow here, correct fonctioning:
+Non-alert case:
+-Script sets the check_nrpe to return 0 (OK)
+-Shinken asks check_nrpe, it's OK
+-Script reads Zimbra, no new mail, it's OK
+
+Alert case:
+-Script sets the check_nrpe to return 2 (CRITICAL)
+-Shinken asks check_nrpe, it's CRITICAL
+-Script reads Zimbra, a new mail comes (service critical), it's fine
+
+Back to normal:
+-Script sets the check_nrpe to return 0 (OK)
+-Shinken asks check_nrpe, it's OK
+-Script reads Zimbra, new mail (service recovered), it's fine
+
+Malfonctioning:
+-Shinken doesn't poll, or it delays more than expected.
+-Shinken doesn't notify of service KO
+-Zimbra doesn't get the mail notification (SMTP delivery), or it delays more than expected
+-Zimbra doesn't provide the mail notification (IMAP delivery)
+
+Thinks that we won't check
+-Local Asterisk is running
+-Probe commands are running (will be another service at shinken, notifying support@)
+
+
+ARCHITECTURE:
+A cron job will set at any hour, minute 0, the probe config file to CRITICAL
+Another cron job will set at any hour, minute 20, the probe config file to OK
+The check_nrpe plugin will return 0 (OK) or 2 (critical) depending on the value of the probe config file
+A shinken service will poll the probe every 5 minutes (scheduled by shinken server). It will alert by mail inmediatly after 3 consecutive fails (when the 1st fails, another check is done in the next minute)
+Another cron job will monitor the Zimbra mailbox 14 minutes after the probe status change (so at least 2 nagios checks are done). If the proper mail is not received, i.e. CRITICAL template for CRITICAL alert, and RECOVERY mail template when alert reverts to OK, then an asterisk script will be launched to inmediatly notify of a probe problem. This cron job checks the probe config file, and then checks for the mail according to the CRITICAL or OK/RECOVERY status. 
+The zimbra monitor will remove the mail once processed.
+For sanity purposes, we should ensure that no cron jobs are still running before launching new scripts
+
+CRONTASK TO SET AT OFFICESRV-01 (as root or nagios UID)
+#https://wiki.savoirfairelinux.com/wiki/Shinken_and_Zimbra_status_probe
+0  * * * *  /usr/lib/nagios/plugins/check_probe_shinkenzimbra.py -s 1 > /dev/null
+20 * * * *  /usr/lib/nagios/plugins/check_probe_shinkenzimbra.py -s 0 > /dev/null
+

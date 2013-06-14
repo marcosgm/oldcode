@@ -1,0 +1,1 @@
+mailcfg: {    password: eeGh9zaech9g,     server: mail.savoirfairelinux.com,     username: shinken.probe,    mailfolder: INBOX}

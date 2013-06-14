@@ -1,0 +1,26 @@
+Subject: 	** PROBLEM Service Alert: office-srv-01.mtl.sfl/Check Probe 
+for Shinken and Zimbra health is WARNING **
+Date: 	Fri, 18 May 2012 16:51:58 -0400 (EDT)
+From: 	shinken@shinken.savoirfairelinux.net
+To: 	marcos.garcia@savoirfairelinux.com
+
+
+
+***** Nagios *****
+
+Notification Type: PROBLEM
+
+Service: Check Probe for Shinken and Zimbra health
+Host: office-srv-01.mtl.sfl
+Address: office-srv-01.mtl.sfl
+State: WARNING
+
+Date/Time: Fri 18 May 16:51:58 EDT 2012
+
+Additional Info:
+
+WARNING Probe status is 1
+
+
+
+
