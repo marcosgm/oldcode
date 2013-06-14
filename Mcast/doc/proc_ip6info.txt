@@ -1,0 +1,50 @@
+11.4. IPv6-related entries in /proc/net/
+
+In /proc/net there are several read-only entries available. You cannot retrieve information using "sysctl" here, so use e.g. "cat".
+11.4.1. if_inet6
+
+    *      Type: One line per addresss containing multiple values 
+
+Here all configured IPv6 addresses are shown in a special format. The example displays for loopback interface only. The meaning is shown below (see "net/ipv6/addrconf.c" for more).
+
+# cat /proc/net/if_inet6
+00000000000000000000000000000001 01 80 10 80 lo
++------------------------------+ ++ ++ ++ ++ ++
+|                                |  |  |  |  |
+1                                2  3  4  5  6
+   
+
+   1.      IPv6 address displayed in 32 hexadecimal chars without colons as separator
+   2.      Netlink device number (interface index) in hexadecimal (see "ip addr" , too)
+   3.      Prefix length in hexadecimal
+   4.      Scope value (see kernel source " include/net/ipv6.h" and "net/ipv6/addrconf.c" for more)
+   5.      Interface flags (see "include/linux/rtnetlink.h" and "net/ipv6/addrconf.c" for more)
+   6.      Device name 
+
+11.4.2. ipv6_route
+
+    * Type: One line per route containing multiple values 
+
+Here all configured IPv6 routes are shown in a special format. The example displays for loopback interface only. The meaning is shown below (see "net/ipv6/route.c" for more).
+
+# cat /proc/net/ipv6_route
+00000000000000000000000000000000 00 00000000000000000000000000000000 00
++------------------------------+ ++ +------------------------------+ ++
+|                                |  |                                |
+1                                2  3                                4
+¬ 00000000000000000000000000000000 ffffffff 00000001 00000001 00200200 lo
+¬ +------------------------------+ +------+ +------+ +------+ +------+ ++
+¬ |                                |        |        |        |        |
+¬ 5                                6        7        8        9        10
+   
+
+   1.      IPv6 destination network displayed in 32 hexadecimal chars without colons as separator
+   2.      IPv6 destination prefix length in hexadecimal
+   3.      IPv6 source network displayed in 32 hexadecimal chars without colons as separator
+   4.      IPv6 source prefix length in hexadecimal
+   5.      IPv6 next hop displayed in 32 hexadecimal chars without colons as separator
+   6.      Metric in hexadecimal
+   7.      Reference counter
+   8.      Use counter
+   9.      Flags
+  10.      Device name

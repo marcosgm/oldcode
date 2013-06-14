@@ -1,0 +1,72 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5	//
+IFS_consigue_ifaz	IFS_parsers.c	/^int IFS_consigue_ifaz(IFS_t *ifs, char *nombre)$/;"	f
+IFS_parsea_from_proc	IFS_parsers.c	/^void IFS_parsea_from_proc(IFS_t *ifs)$/;"	f
+IFS_sacar_solo_linklocal	IFS_parsers.c	/^void IFS_sacar_solo_linklocal(IFS_t *sololinklocal,IFS_t *todas_ifaces)$/;"	f
+IFS_sacar_solo_sitelocal	IFS_parsers.c	/^void IFS_sacar_solo_sitelocal(IFS_t *solositelocal,IFS_t *todas_ifaces)$/;"	f
+MAXBUFSIZE	mierdaAPIipv6.c	1;"	d	file:
+RT_busca_ifaz_uplink	RT_parsers.c	/^int RT_busca_ifaz_uplink(char *ifaz, RT_t *rts, struct in6_addr *direccion)$/;"	f
+RT_filtra_por_ifaz	RT_parsers.c	/^void RT_filtra_por_ifaz(RT_t *rts_filtrado, RT_t *rts_todas, char * devname)$/;"	f
+RT_imprime_rutas	RT_parsers.c	/^void RT_imprime_rutas (RT_t *rts)$/;"	f
+RT_parsea_from_proc	RT_parsers.c	/^void RT_parsea_from_proc (RT_t *rts)$/;"	f
+UTIL_compare_network	UTILS.c	/^int UTIL_compare_network(struct in6_addr *red, struct in6_addr *direccion, int mask_len)$/;"	f
+UTIL_get_hexchar_val	UTILS.c	/^int UTIL_get_hexchar_val(char h)$/;"	f
+UTIL_get_number_of_lines	UTILS.c	/^int UTIL_get_number_of_lines (FILE *fd, int buf_len)$/;"	f
+UTIL_hexstring_to_ipv6	UTILS.c	/^void UTIL_hexstring_to_ipv6(struct in6_addr *ipv6, char *str)$/;"	f
+__get_hz	utils.c	/^int __get_hz(void)$/;"	f
+__iproute2_hz_internal	utils.c	/^int __iproute2_hz_internal;$/;"	v
+addattr32	libnetlink.c	/^int addattr32(struct nlmsghdr *n, int maxlen, int type, __u32 data)$/;"	f
+addattr_l	libnetlink.c	/^int addattr_l(struct nlmsghdr *n, int maxlen, int type, void *data, int alen)$/;"	f
+addr	utils.c	/^	inet_prefix addr;$/;"	m	struct:namerec	file:
+buffer	mierdaAPIipv6.c	/^   char buffer[MAXBUFSIZE];$/;"	v
+destino	mierdaAPIipv6.c	/^   struct sockaddr_in6 destino;$/;"	v
+duparg	utils.c	/^void duparg(char *key, char *arg)$/;"	f
+duparg2	utils.c	/^void duparg2(char *key, char *arg)$/;"	f
+format_host	utils.c	/^const char *format_host(int af, int len, void *addr, char *buf, int buflen)$/;"	f
+get_addr	utils.c	/^int get_addr(inet_prefix *dst, char *arg, int family)$/;"	f
+get_addr32	utils.c	/^__u32 get_addr32(char *name)$/;"	f
+get_addr_1	utils.c	/^int get_addr_1(inet_prefix *addr, char *name, int family)$/;"	f
+get_integer	utils.c	/^int get_integer(int *val, char *arg, int base)$/;"	f
+get_prefix	utils.c	/^int get_prefix(inet_prefix *dst, char *arg, int family)$/;"	f
+get_prefix_1	utils.c	/^int get_prefix_1(inet_prefix *dst, char *arg, int family)$/;"	f
+get_s16	utils.c	/^int get_s16(__s16 *val, char *arg, int base)$/;"	f
+get_s8	utils.c	/^int get_s8(__s8 *val, char *arg, int base)$/;"	f
+get_u16	utils.c	/^int get_u16(__u16 *val, char *arg, int base)$/;"	f
+get_u32	utils.c	/^int get_u32(__u32 *val, char *arg, int base)$/;"	f
+get_u8	utils.c	/^int get_u8(__u8 *val, char *arg, int base)$/;"	f
+get_unsigned	utils.c	/^int get_unsigned(unsigned *val, char *arg, int base)$/;"	f
+hexstring_a2n	utils.c	/^__u8* hexstring_a2n(const __u8 *str, __u8 *buf, int blen)$/;"	f
+hexstring_n2a	utils.c	/^__u8* hexstring_n2a(const __u8 *str, int len, __u8 *buf, int blen)$/;"	f
+imreq	mierdaAPIipv6.c	/^   struct ip_mreq imreq;$/;"	v
+incomplete_command	utils.c	/^void incomplete_command()$/;"	f
+inet_addr_match	utils.c	/^int inet_addr_match(inet_prefix *a, inet_prefix *b, int bits)$/;"	f
+invarg	utils.c	/^void invarg(char *msg, char *arg)$/;"	f
+main	main.c	/^int main()$/;"	f
+matches	utils.c	/^int matches(char *cmd, char *pattern)$/;"	f
+name	utils.c	/^	char	    *name;$/;"	m	struct:namerec	file:
+namerec	utils.c	/^struct namerec$/;"	s	file:
+next	utils.c	/^	struct namerec *next;$/;"	m	struct:namerec	file:
+nht	utils.c	/^static struct namerec *nht[256];$/;"	v	file:
+parse_rtattr	libnetlink.c	/^int parse_rtattr(struct rtattr *tb[], int max, struct rtattr *rta, int len)$/;"	f
+resolve_address	utils.c	/^char *resolve_address(char *addr, int len, int af)$/;"	f
+rt_addr_n2a	utils.c	/^const char *rt_addr_n2a(int af, int len, void *addr, char *buf, int buflen)$/;"	f
+rta_addattr32	libnetlink.c	/^int rta_addattr32(struct rtattr *rta, int maxlen, int type, __u32 data)$/;"	f
+rta_addattr_l	libnetlink.c	/^int rta_addattr_l(struct rtattr *rta, int maxlen, int type, void *data, int alen)$/;"	f
+rtnl_dump_filter	libnetlink.c	/^int rtnl_dump_filter(struct rtnl_handle *rth,$/;"	f
+rtnl_dump_request	libnetlink.c	/^int rtnl_dump_request(struct rtnl_handle *rth, int type, void *req, int len)$/;"	f
+rtnl_from_file	libnetlink.c	/^int rtnl_from_file(FILE *rtnl, $/;"	f
+rtnl_listen	libnetlink.c	/^int rtnl_listen(struct rtnl_handle *rtnl, $/;"	f
+rtnl_open	libnetlink.c	/^int rtnl_open(struct rtnl_handle *rth, unsigned subscriptions)$/;"	f
+rtnl_send	libnetlink.c	/^int rtnl_send(struct rtnl_handle *rth, char *buf, int len)$/;"	f
+rtnl_talk	libnetlink.c	/^int rtnl_talk(struct rtnl_handle *rtnl, struct nlmsghdr *n, pid_t peer,$/;"	f
+rtnl_wilddump_request	libnetlink.c	/^int rtnl_wilddump_request(struct rtnl_handle *rth, int family, int type)$/;"	f
+sock	mierdaAPIipv6.c	/^	int sock, status, sockopt;$/;"	v
+sockopt	mierdaAPIipv6.c	/^	int sock, status, sockopt;$/;"	v
+start_daemon	main.c	/^void *start_daemon (void *arg)$/;"	f
+status	mierdaAPIipv6.c	/^	int sock, status, sockopt;$/;"	v
+todas_ifaces	main.c	/^IFS_t todas_ifaces;$/;"	v
+todas_rutas	main.c	/^RT_t todas_rutas;	$/;"	v

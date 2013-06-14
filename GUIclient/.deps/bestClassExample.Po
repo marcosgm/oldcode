@@ -1,0 +1,30 @@
+bestClassExample.o bestClassExample.o: bestClassExample.cpp \
+  /usr/include/fltk-1.1/FL/Fl.H /usr/include/fltk-1.1/FL/Enumerations.H \
+  /usr/include/fltk-1.1/FL/Fl_Export.H \
+  /usr/include/fltk-1.1/FL/Fl_Window.H \
+  /usr/include/fltk-1.1/FL/Fl_Group.H \
+  /usr/include/fltk-1.1/FL/Fl_Widget.H \
+  /usr/include/fltk-1.1/FL/Fl_Button.H \
+  /usr/include/fltk-1.1/FL/Fl_Input.H \
+  /usr/include/fltk-1.1/FL/Fl_Input_.H \
+  /usr/include/fltk-1.1/FL/Fl_Output.H
+
+/usr/include/fltk-1.1/FL/Fl.H:
+
+/usr/include/fltk-1.1/FL/Enumerations.H:
+
+/usr/include/fltk-1.1/FL/Fl_Export.H:
+
+/usr/include/fltk-1.1/FL/Fl_Window.H:
+
+/usr/include/fltk-1.1/FL/Fl_Group.H:
+
+/usr/include/fltk-1.1/FL/Fl_Widget.H:
+
+/usr/include/fltk-1.1/FL/Fl_Button.H:
+
+/usr/include/fltk-1.1/FL/Fl_Input.H:
+
+/usr/include/fltk-1.1/FL/Fl_Input_.H:
+
+/usr/include/fltk-1.1/FL/Fl_Output.H:

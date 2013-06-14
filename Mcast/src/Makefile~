@@ -1,0 +1,38 @@
+DEFINES	= 
+#DEFINES = -DFROMFILE
+DEFINES = -DIMPRIMELOTODO
+
+#GNET_CFLAGS = `pkg-config gnet --cflags`
+#GNET_LIBS = `pkg-config gnet --libs`
+#GNET = -I/usr/include/gnet-2.0 -I/usr/lib/gnet-2.0/include/ -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include  -lgnet-2.0 -lgthread-2.0 -lglib-2.0
+#$(GNET_CFLAGS) $(GNET_LIBS)
+
+INCLUDES = -I ../include -g
+LIBS = -L. -lip2utils -lm -lpthread -lpcap
+#-L. -lip2 -lip2libs 
+
+
+Mcast: clean libnetlink IFS_parsers RT_parsers UTILS NET PCAP_funciones
+	gcc main.c IFS_parsers.o RT_parsers.o libnetlink.o NET.o UTILS.o PCAP_funciones.o  $(INCLUDES) -Wall -fstack-protector -o mcast $(LIBS)
+
+clean:
+	rm -f libnetlink.o main.o IFS_parsers.o RT_parsers.o UTILS.o NET.o PCAP_funciones.o
+
+libnetlink:
+	gcc -c libnetlink.c $(INCLUDES) $(DEFINES) 
+
+IFS_parsers:
+	gcc -c IFS_parsers.c $(INCLUDES) $(DEFINES)
+
+RT_parsers:
+	gcc -c RT_parsers.c $(INCLUDES) $(DEFINES) 
+
+UTILS:
+	gcc -c UTILS.c $(INCLUDES) $(DEFINES)
+
+NET:
+	gcc -c NET.c $(INCLUDES) $(DEFINES)
+
+PCAP_funciones:
+	gcc -c PCAP_funciones.c $(INCLUDES) $(DEFINES)
+

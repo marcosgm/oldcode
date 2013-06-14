@@ -1,0 +1,55 @@
+
+[executer]
+RunInTerminal=true
+
+[Project State]
+clean before build=false
+
+[filenumbers]
+0=1
+1=1
+2=1
+3=1
+4=1
+5=1
+6=11
+7=1
+8=1
+9=121
+
+[filemarkers]
+0=
+1=
+2=
+3=
+4=
+5=
+6=
+7=
+8=
+9=
+
+[File View]
+filter.file.unmatch=*.so *.o *.a *.la
+filter.file.ignore.hidden=0
+filter.dir.ignore.hidden=0
+
+[filelist]
+0=/home/marcos/EPSC/tfc/Projects/Mcast/src/IFS.c
+1=/home/marcos/EPSC/tfc/Projects/Mcast/src/NET.c
+2=/home/marcos/EPSC/tfc/Projects/Mcast/src/PCAP.c
+3=/home/marcos/EPSC/tfc/Projects/Mcast/src/RT.c
+4=/home/marcos/EPSC/tfc/Projects/Mcast/src/UTILS.c
+5=/home/marcos/EPSC/tfc/Projects/Mcast/src/libnetlink.c
+6=/home/marcos/EPSC/tfc/Projects/Mcast/src/main.c
+7=/home/marcos/EPSC/tfc/Projects/Mcast/src/utils.c
+8=/home/marcos/EPSC/tfc/Projects/Mcast/src/GEOPAG.c
+
+[Project Tree]
+0=0
+1=0:0
+2=0:1
+
+[File Tree]
+0=0
+1=0:2

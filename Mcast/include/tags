@@ -1,0 +1,563 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5	//
+ALL_MCAST_GROUPS_ADDR	defs_pim6dd.h	189;"	d
+ALL_MCAST_GROUPS_LENGTH	defs_pim6dd.h	190;"	d
+ASSERT_RTNL	rtnetlink.h	590;"	d
+ATBS	nl.h	37;"	d
+BIT_CLR	defs_pim6dd.h	201;"	d
+BIT_SET	defs_pim6dd.h	200;"	d
+BIT_TST	defs_pim6dd.h	202;"	d
+BIT_ZERO	defs_pim6dd.h	199;"	d
+BUG_TRAP	rtnetlink.h	593;"	d
+CLASSD_PREFIX	defs_pim6dd.h	188;"	d
+CMASK	nl.h	36;"	d
+CREATE	defs_pim6dd.h	152;"	d
+DEFAULT_METRIC	defs_pim6dd.h	193;"	d
+DEFAULT_THRESHOLD	defs_pim6dd.h	194;"	d
+DONT_CREATE	defs_pim6dd.h	153;"	d
+ELSE	defs_pim6dd.h	302;"	d
+EQUAL	defs_pim6dd.h	155;"	d
+ERR_LIB	nl.h	18;"	d
+FALSE	defs_pim6dd.h	150;"	d
+FIRE_TIMER	defs_pim6dd.h	288;"	d
+HAVE_ROUTING_SOCKETS	defs_pim6dd.h	146;"	d
+HAVE_SA_LEN	defs_pim6dd.h	140;"	d
+IFA_ADDRESS	rtnetlink.h	/^	IFA_ADDRESS,$/;"	e
+IFA_ANYCAST	rtnetlink.h	/^	IFA_ANYCAST,$/;"	e
+IFA_BROADCAST	rtnetlink.h	/^	IFA_BROADCAST,$/;"	e
+IFA_CACHEINFO	rtnetlink.h	/^	IFA_CACHEINFO$/;"	e
+IFA_F_DEPRECATED	rtnetlink.h	319;"	d
+IFA_F_PERMANENT	rtnetlink.h	321;"	d
+IFA_F_SECONDARY	rtnetlink.h	317;"	d
+IFA_F_TENTATIVE	rtnetlink.h	320;"	d
+IFA_LABEL	rtnetlink.h	/^	IFA_LABEL,$/;"	e
+IFA_LOCAL	rtnetlink.h	/^	IFA_LOCAL,$/;"	e
+IFA_MAX	rtnetlink.h	313;"	d
+IFA_PAYLOAD	rtnetlink.h	331;"	d
+IFA_RTA	rtnetlink.h	330;"	d
+IFA_UNSPEC	rtnetlink.h	/^	IFA_UNSPEC,$/;"	e
+IFLA_ADDRESS	rtnetlink.h	/^	IFLA_ADDRESS,$/;"	e
+IFLA_BROADCAST	rtnetlink.h	/^	IFLA_BROADCAST,$/;"	e
+IFLA_COST	rtnetlink.h	/^	IFLA_COST,$/;"	e
+IFLA_COST	rtnetlink.h	440;"	d
+IFLA_IFNAME	rtnetlink.h	/^	IFLA_IFNAME,$/;"	e
+IFLA_LINK	rtnetlink.h	/^	IFLA_LINK,$/;"	e
+IFLA_MASTER	rtnetlink.h	/^	IFLA_MASTER,$/;"	e
+IFLA_MASTER	rtnetlink.h	444;"	d
+IFLA_MAX	rtnetlink.h	450;"	d
+IFLA_MTU	rtnetlink.h	/^	IFLA_MTU,$/;"	e
+IFLA_PAYLOAD	rtnetlink.h	453;"	d
+IFLA_PRIORITY	rtnetlink.h	/^	IFLA_PRIORITY,$/;"	e
+IFLA_PRIORITY	rtnetlink.h	442;"	d
+IFLA_QDISC	rtnetlink.h	/^	IFLA_QDISC,$/;"	e
+IFLA_RTA	rtnetlink.h	452;"	d
+IFLA_STATS	rtnetlink.h	/^	IFLA_STATS,$/;"	e
+IFLA_UNSPEC	rtnetlink.h	/^	IFLA_UNSPEC,$/;"	e
+IFLA_WIRELESS	rtnetlink.h	/^	IFLA_WIRELESS,		\/* Wireless Extension event - see wireless.h *\/$/;"	e
+IFLA_WIRELESS	rtnetlink.h	446;"	d
+IFS_interfaz_t	defs.h	/^typedef struct ip_from_proc IFS_interfaz_t;$/;"	t
+IFS_t	defs.h	/^typedef struct interficies_ip IFS_t ;$/;"	t
+IF_INET6_PROCFILE	defs.h	19;"	d
+IF_NOT_TIMEOUT	defs_pim6dd.h	293;"	d
+IF_TIMEOUT	defs_pim6dd.h	290;"	d
+IF_TIMER_NOT_SET	defs_pim6dd.h	287;"	d
+IF_TIMER_SET	defs_pim6dd.h	286;"	d
+IGMP_MEMBERSHIP_QUERY	defs_pim6dd.h	268;"	d
+IGMP_MTRACE	defs_pim6dd.h	281;"	d
+IGMP_MTRACE_RESP	defs_pim6dd.h	280;"	d
+IGMP_V1_MEMBERSHIP_REPORT	defs_pim6dd.h	270;"	d
+IGMP_V1_MEMBERSHIP_REPORT	defs_pim6dd.h	273;"	d
+IGMP_V2_LEAVE_GROUP	defs_pim6dd.h	276;"	d
+IGMP_V2_MEMBERSHIP_REPORT	defs_pim6dd.h	271;"	d
+IGMP_V2_MEMBERSHIP_REPORT	defs_pim6dd.h	274;"	d
+INADDR_ALLRTRS_GROUP	defs_pim6dd.h	179;"	d
+INADDR_ANY_N	defs_pim6dd.h	186;"	d
+INS_LEN	nl.h	40;"	d
+IPV6_ROUTE_PROCFILE	defs.h	20;"	d
+JAN_1970	defs_pim6dd.h	159;"	d
+JAN_1970	defs_pim6dd.h	161;"	d
+MAX_IP_HEADER_LEN	defs_pim6dd.h	170;"	d
+MAX_IP_PACKET_LEN	defs_pim6dd.h	168;"	d
+MAX_LINKS	netlink.h	16;"	d
+MINHLIM	defs_pim6dd.h	166;"	d
+MIN_IP_HEADER_LEN	defs_pim6dd.h	169;"	d
+NDA_CACHEINFO	rtnetlink.h	/^	NDA_CACHEINFO$/;"	e
+NDA_DST	rtnetlink.h	/^	NDA_DST,$/;"	e
+NDA_LLADDR	rtnetlink.h	/^	NDA_LLADDR,$/;"	e
+NDA_MAX	rtnetlink.h	364;"	d
+NDA_PAYLOAD	rtnetlink.h	367;"	d
+NDA_RTA	rtnetlink.h	366;"	d
+NDA_UNSPEC	rtnetlink.h	/^	NDA_UNSPEC,$/;"	e
+NETLINK_ARPD	netlink.h	10;"	d
+NETLINK_CB	netlink.h	99;"	d
+NETLINK_CREDS	netlink.h	100;"	d
+NETLINK_DNRTMSG	netlink.h	13;"	d
+NETLINK_FIREWALL	netlink.h	7;"	d
+NETLINK_IP6_FW	netlink.h	12;"	d
+NETLINK_NFLOG	netlink.h	9;"	d
+NETLINK_ROUTE	netlink.h	4;"	d
+NETLINK_ROUTE6	netlink.h	11;"	d
+NETLINK_SKIP	netlink.h	5;"	d
+NETLINK_TAPBASE	netlink.h	14;"	d
+NETLINK_TCPDIAG	netlink.h	8;"	d
+NETLINK_USERSOCK	netlink.h	6;"	d
+NET_MAJOR	netlink.h	85;"	d
+NLMSG_ALIGN	netlink.h	64;"	d
+NLMSG_ALIGNTO	netlink.h	63;"	d
+NLMSG_DATA	netlink.h	67;"	d
+NLMSG_DONE	netlink.h	76;"	d
+NLMSG_ERROR	netlink.h	75;"	d
+NLMSG_GOODSIZE	netlink.h	121;"	d
+NLMSG_LENGTH	netlink.h	65;"	d
+NLMSG_NEXT	netlink.h	68;"	d
+NLMSG_NOOP	netlink.h	74;"	d
+NLMSG_OK	netlink.h	70;"	d
+NLMSG_OVERRUN	netlink.h	77;"	d
+NLMSG_PAYLOAD	netlink.h	72;"	d
+NLMSG_PUT	netlink.h	155;"	d
+NLMSG_SPACE	netlink.h	66;"	d
+NLM_F_ACK	netlink.h	39;"	d
+NLM_F_APPEND	netlink.h	52;"	d
+NLM_F_ATOMIC	netlink.h	45;"	d
+NLM_F_CREATE	netlink.h	51;"	d
+NLM_F_DUMP	netlink.h	46;"	d
+NLM_F_ECHO	netlink.h	40;"	d
+NLM_F_EXCL	netlink.h	50;"	d
+NLM_F_MATCH	netlink.h	44;"	d
+NLM_F_MULTI	netlink.h	38;"	d
+NLM_F_REPLACE	netlink.h	49;"	d
+NLM_F_REQUEST	netlink.h	37;"	d
+NLM_F_ROOT	netlink.h	43;"	d
+NL_ARP_MINLEN	nl.h	42;"	d
+NL_BUFSIZE	nl.h	41;"	d
+NL_GOTDATA	nl.h	45;"	d
+NL_NONROOT_RECV	netlink.h	164;"	d
+NL_NONROOT_SEND	netlink.h	165;"	d
+NOT_TIMEOUT	defs_pim6dd.h	299;"	d
+NTF_PROXY	rtnetlink.h	373;"	d
+NTF_ROUTER	rtnetlink.h	374;"	d
+NUD_DELAY	rtnetlink.h	383;"	d
+NUD_FAILED	rtnetlink.h	385;"	d
+NUD_INCOMPLETE	rtnetlink.h	380;"	d
+NUD_NOARP	rtnetlink.h	388;"	d
+NUD_NONE	rtnetlink.h	390;"	d
+NUD_PERMANENT	rtnetlink.h	389;"	d
+NUD_PROBE	rtnetlink.h	384;"	d
+NUD_REACHABLE	rtnetlink.h	381;"	d
+NUD_STALE	rtnetlink.h	382;"	d
+OBS	nl.h	35;"	d
+PRTFL	ip_functions.c	402;"	d	file:
+RANDOM	defs_pim6dd.h	209;"	d
+RANDOM	defs_pim6dd.h	211;"	d
+RECV_BUF_SIZE	defs_pim6dd.h	217;"	d
+RSRR_NOTIFICATION_FALSE	defs_pim6dd.h	576;"	d
+RSRR_NOTIFICATION_OK	defs_pim6dd.h	575;"	d
+RTATTR_MAX	rtnetlink.h	517;"	d
+RTAX_ADVMSS	rtnetlink.h	/^	RTAX_ADVMSS,$/;"	e
+RTAX_ADVMSS	rtnetlink.h	280;"	d
+RTAX_CWND	rtnetlink.h	/^	RTAX_CWND,$/;"	e
+RTAX_CWND	rtnetlink.h	278;"	d
+RTAX_LOCK	rtnetlink.h	/^	RTAX_LOCK,$/;"	e
+RTAX_LOCK	rtnetlink.h	266;"	d
+RTAX_MAX	rtnetlink.h	285;"	d
+RTAX_MTU	rtnetlink.h	/^	RTAX_MTU,$/;"	e
+RTAX_MTU	rtnetlink.h	268;"	d
+RTAX_REORDERING	rtnetlink.h	/^	RTAX_REORDERING,$/;"	e
+RTAX_REORDERING	rtnetlink.h	282;"	d
+RTAX_RTT	rtnetlink.h	/^	RTAX_RTT,$/;"	e
+RTAX_RTT	rtnetlink.h	272;"	d
+RTAX_RTTVAR	rtnetlink.h	/^	RTAX_RTTVAR,$/;"	e
+RTAX_RTTVAR	rtnetlink.h	274;"	d
+RTAX_SSTHRESH	rtnetlink.h	/^	RTAX_SSTHRESH,$/;"	e
+RTAX_SSTHRESH	rtnetlink.h	276;"	d
+RTAX_UNSPEC	rtnetlink.h	/^	RTAX_UNSPEC,$/;"	e
+RTAX_UNSPEC	rtnetlink.h	264;"	d
+RTAX_WINDOW	rtnetlink.h	/^	RTAX_WINDOW,$/;"	e
+RTAX_WINDOW	rtnetlink.h	270;"	d
+RTA_ALIGN	rtnetlink.h	66;"	d
+RTA_ALIGNTO	rtnetlink.h	65;"	d
+RTA_CACHEINFO	rtnetlink.h	/^	RTA_CACHEINFO$/;"	e	enum:rtattr_type_t
+RTA_DATA	rtnetlink.h	73;"	d
+RTA_DST	rtnetlink.h	/^	RTA_DST,$/;"	e	enum:rtattr_type_t
+RTA_FLOW	rtnetlink.h	/^	RTA_FLOW,$/;"	e	enum:rtattr_type_t
+RTA_GATEWAY	rtnetlink.h	/^	RTA_GATEWAY,$/;"	e	enum:rtattr_type_t
+RTA_IIF	rtnetlink.h	/^	RTA_IIF,$/;"	e	enum:rtattr_type_t
+RTA_LENGTH	rtnetlink.h	71;"	d
+RTA_MAX	rtnetlink.h	204;"	d
+RTA_METRICS	rtnetlink.h	/^	RTA_METRICS,$/;"	e	enum:rtattr_type_t
+RTA_MULTIPATH	rtnetlink.h	/^	RTA_MULTIPATH,$/;"	e	enum:rtattr_type_t
+RTA_NEXT	rtnetlink.h	69;"	d
+RTA_OIF	rtnetlink.h	/^	RTA_OIF,$/;"	e	enum:rtattr_type_t
+RTA_OK	rtnetlink.h	67;"	d
+RTA_PAYLOAD	rtnetlink.h	74;"	d
+RTA_PREFSRC	rtnetlink.h	/^	RTA_PREFSRC,$/;"	e	enum:rtattr_type_t
+RTA_PRIORITY	rtnetlink.h	/^	RTA_PRIORITY,$/;"	e	enum:rtattr_type_t
+RTA_PROTOINFO	rtnetlink.h	/^	RTA_PROTOINFO,$/;"	e	enum:rtattr_type_t
+RTA_PUT	rtnetlink.h	566;"	d
+RTA_SPACE	rtnetlink.h	72;"	d
+RTA_SRC	rtnetlink.h	/^	RTA_SRC,$/;"	e	enum:rtattr_type_t
+RTA_UNSPEC	rtnetlink.h	/^	RTA_UNSPEC,$/;"	e	enum:rtattr_type_t
+RTMGRP_DECnet_IFADDR	rtnetlink.h	534;"	d
+RTMGRP_DECnet_ROUTE	rtnetlink.h	535;"	d
+RTMGRP_IPV4_IFADDR	rtnetlink.h	526;"	d
+RTMGRP_IPV4_MROUTE	rtnetlink.h	527;"	d
+RTMGRP_IPV4_ROUTE	rtnetlink.h	528;"	d
+RTMGRP_IPV6_IFADDR	rtnetlink.h	530;"	d
+RTMGRP_IPV6_MROUTE	rtnetlink.h	531;"	d
+RTMGRP_IPV6_ROUTE	rtnetlink.h	532;"	d
+RTMGRP_LINK	rtnetlink.h	521;"	d
+RTMGRP_NEIGH	rtnetlink.h	523;"	d
+RTMGRP_NOTIFY	rtnetlink.h	522;"	d
+RTMGRP_TC	rtnetlink.h	524;"	d
+RTM_BASE	rtnetlink.h	15;"	d
+RTM_DELADDR	rtnetlink.h	22;"	d
+RTM_DELLINK	rtnetlink.h	18;"	d
+RTM_DELNEIGH	rtnetlink.h	30;"	d
+RTM_DELQDISC	rtnetlink.h	38;"	d
+RTM_DELROUTE	rtnetlink.h	26;"	d
+RTM_DELRULE	rtnetlink.h	34;"	d
+RTM_DELTCLASS	rtnetlink.h	42;"	d
+RTM_DELTFILTER	rtnetlink.h	46;"	d
+RTM_F_CLONED	rtnetlink.h	168;"	d
+RTM_F_EQUALIZE	rtnetlink.h	169;"	d
+RTM_F_NOTIFY	rtnetlink.h	167;"	d
+RTM_GETADDR	rtnetlink.h	23;"	d
+RTM_GETLINK	rtnetlink.h	19;"	d
+RTM_GETNEIGH	rtnetlink.h	31;"	d
+RTM_GETQDISC	rtnetlink.h	39;"	d
+RTM_GETROUTE	rtnetlink.h	27;"	d
+RTM_GETRULE	rtnetlink.h	35;"	d
+RTM_GETTCLASS	rtnetlink.h	43;"	d
+RTM_GETTFILTER	rtnetlink.h	47;"	d
+RTM_MAX	rtnetlink.h	49;"	d
+RTM_NEWADDR	rtnetlink.h	21;"	d
+RTM_NEWLINK	rtnetlink.h	17;"	d
+RTM_NEWNEIGH	rtnetlink.h	29;"	d
+RTM_NEWQDISC	rtnetlink.h	37;"	d
+RTM_NEWROUTE	rtnetlink.h	25;"	d
+RTM_NEWRULE	rtnetlink.h	33;"	d
+RTM_NEWTCLASS	rtnetlink.h	41;"	d
+RTM_NEWTFILTER	rtnetlink.h	45;"	d
+RTM_PAYLOAD	rtnetlink.h	207;"	d
+RTM_RTA	rtnetlink.h	206;"	d
+RTNETLINK_HAVE_PEERINFO	rtnetlink.h	253;"	d
+RTNH_ALIGN	rtnetlink.h	235;"	d
+RTNH_ALIGNTO	rtnetlink.h	234;"	d
+RTNH_DATA	rtnetlink.h	241;"	d
+RTNH_F_DEAD	rtnetlink.h	228;"	d
+RTNH_F_ONLINK	rtnetlink.h	230;"	d
+RTNH_F_PERVASIVE	rtnetlink.h	229;"	d
+RTNH_LENGTH	rtnetlink.h	239;"	d
+RTNH_NEXT	rtnetlink.h	238;"	d
+RTNH_OK	rtnetlink.h	236;"	d
+RTNH_SPACE	rtnetlink.h	240;"	d
+RTNL_DEBUG	rtnetlink.h	6;"	d
+RTN_ANYCAST	rtnetlink.h	/^	RTN_ANYCAST,		\/* Accept locally as broadcast,$/;"	e
+RTN_BLACKHOLE	rtnetlink.h	/^	RTN_BLACKHOLE,		\/* Drop				*\/$/;"	e
+RTN_BROADCAST	rtnetlink.h	/^	RTN_BROADCAST,		\/* Accept locally as broadcast,$/;"	e
+RTN_LOCAL	rtnetlink.h	/^	RTN_LOCAL,		\/* Accept locally		*\/$/;"	e
+RTN_MAX	rtnetlink.h	118;"	d
+RTN_MULTICAST	rtnetlink.h	/^	RTN_MULTICAST,		\/* Multicast route		*\/$/;"	e
+RTN_NAT	rtnetlink.h	/^	RTN_NAT,		\/* Translate this address	*\/$/;"	e
+RTN_PROHIBIT	rtnetlink.h	/^	RTN_PROHIBIT,		\/* Administratively prohibited	*\/$/;"	e
+RTN_THROW	rtnetlink.h	/^	RTN_THROW,		\/* Not in this table		*\/$/;"	e
+RTN_UNICAST	rtnetlink.h	/^	RTN_UNICAST,		\/* Gateway or direct route	*\/$/;"	e
+RTN_UNREACHABLE	rtnetlink.h	/^	RTN_UNREACHABLE,	\/* Destination is unreachable   *\/$/;"	e
+RTN_UNSPEC	rtnetlink.h	/^	RTN_UNSPEC,$/;"	e
+RTN_XRESOLVE	rtnetlink.h	/^	RTN_XRESOLVE,		\/* Use external resolver	*\/$/;"	e
+RTPROT_BIRD	rtnetlink.h	141;"	d
+RTPROT_BOOT	rtnetlink.h	127;"	d
+RTPROT_DNROUTED	rtnetlink.h	142;"	d
+RTPROT_GATED	rtnetlink.h	137;"	d
+RTPROT_KERNEL	rtnetlink.h	126;"	d
+RTPROT_MRT	rtnetlink.h	139;"	d
+RTPROT_RA	rtnetlink.h	138;"	d
+RTPROT_REDIRECT	rtnetlink.h	124;"	d
+RTPROT_STATIC	rtnetlink.h	128;"	d
+RTPROT_UNSPEC	rtnetlink.h	123;"	d
+RTPROT_ZEBRA	rtnetlink.h	140;"	d
+RT_SCOPE_HOST	rtnetlink.h	/^	RT_SCOPE_HOST=254,$/;"	e	enum:rt_scope_t
+RT_SCOPE_LINK	rtnetlink.h	/^	RT_SCOPE_LINK=253,$/;"	e	enum:rt_scope_t
+RT_SCOPE_NOWHERE	rtnetlink.h	/^	RT_SCOPE_NOWHERE=255$/;"	e	enum:rt_scope_t
+RT_SCOPE_SITE	rtnetlink.h	/^	RT_SCOPE_SITE=200,$/;"	e	enum:rt_scope_t
+RT_SCOPE_UNIVERSE	rtnetlink.h	/^	RT_SCOPE_UNIVERSE=0,$/;"	e	enum:rt_scope_t
+RT_TABLE_DEFAULT	rtnetlink.h	/^	RT_TABLE_DEFAULT=253,$/;"	e	enum:rt_class_t
+RT_TABLE_LOCAL	rtnetlink.h	/^	RT_TABLE_LOCAL=255$/;"	e	enum:rt_class_t
+RT_TABLE_MAIN	rtnetlink.h	/^	RT_TABLE_MAIN=254,$/;"	e	enum:rt_class_t
+RT_TABLE_MAX	rtnetlink.h	181;"	d
+RT_TABLE_UNSPEC	rtnetlink.h	/^	RT_TABLE_UNSPEC=0,$/;"	e	enum:rt_class_t
+RT_ruta_t	defs.h	/^typedef struct ruta_from_proc RT_ruta_t;$/;"	t
+RT_t	defs.h	/^typedef struct rutas_ip RT_t ;$/;"	t
+SCOPE_LEN	nl.h	38;"	d
+SEQ	nl.h	34;"	d
+SET_TIMER	defs_pim6dd.h	285;"	d
+SO_RECV_BUF_SIZE_MAX	defs_pim6dd.h	219;"	d
+SO_RECV_BUF_SIZE_MIN	defs_pim6dd.h	220;"	d
+TCA_KIND	rtnetlink.h	/^	TCA_KIND,$/;"	e
+TCA_MAX	rtnetlink.h	509;"	d
+TCA_OPTIONS	rtnetlink.h	/^	TCA_OPTIONS,$/;"	e
+TCA_PAYLOAD	rtnetlink.h	512;"	d
+TCA_RATE	rtnetlink.h	/^	TCA_RATE,$/;"	e
+TCA_RTA	rtnetlink.h	511;"	d
+TCA_STATS	rtnetlink.h	/^	TCA_STATS,$/;"	e
+TCA_UNSPEC	rtnetlink.h	/^	TCA_UNSPEC,$/;"	e
+TCA_XSTATS	rtnetlink.h	/^	TCA_XSTATS,$/;"	e
+TIMEOUT	defs_pim6dd.h	296;"	d
+TIMER_INTERVAL	defs_pim6dd.h	196;"	d
+TRUE	defs_pim6dd.h	149;"	d
+TYPE_LEN	nl.h	39;"	d
+_NL_H_	nl.h	2;"	d
+__LIBNETLINK_H__	libnetlink.h	2;"	d
+__LINUX_NETLINK_H	netlink.h	2;"	d
+__LINUX_RTNETLINK_H	rtnetlink.h	2;"	d
+__P	defs_pim6dd.h	106;"	d
+__P	defs_pim6dd.h	108;"	d
+__ifi_pad	rtnetlink.h	/^	unsigned char	__ifi_pad;$/;"	m	struct:ifinfomsg
+__nlmsg_put	netlink.h	/^__nlmsg_put(struct sk_buff *skb, u32 pid, u32 seq, int type, int len)$/;"	f
+acast	nl.h	/^	u_int	acast; 	\/\/anycast$/;"	m	struct:iface_mini
+arg_quit	nl.h	/^int arg_quit(char *usage)$/;"	f
+args	netlink.h	/^	long		args[4];$/;"	m	struct:netlink_callback
+baddr	nl.h	/^	u_int	baddr;	\/\/broadcast$/;"	m	struct:iface_mini
+bcopy	defs_pim6dd.h	206;"	d
+brd_addr	nl.h	/^	u_int	brd_addr;$/;"	m	struct:iface_info
+brecv	nl.h	93;"	d
+bsent	nl.h	94;"	d
+bzero	defs_pim6dd.h	207;"	d
+cache	nl.h	/^	struct ifa_cacheinfo	cache;	\/\/have yet to actually see this returned :-|$/;"	m	struct:iface_mini
+cantidad	defs.h	/^{	int cantidad;$/;"	m	struct:interficies_ip
+cantidad	defs.h	/^{	int cantidad;$/;"	m	struct:rutas_ip
+cfunc_t	defs_pim6dd.h	/^typedef void (*cfunc_t) __P((void *));$/;"	t
+const	defs_pim6dd.h	162;"	d
+creds	netlink.h	/^	struct ucred		creds;		\/* Skb credentials	*\/$/;"	m	struct:netlink_skb_parms
+daddr	nl.h	/^	u_int	daddr;	\/\/dest in a PPP connection$/;"	m	struct:iface_mini
+destaddr	nl.h	/^	u_int	destaddr;	\/\/the destination address$/;"	m	struct:rt_entry
+dev_name	defs.h	/^	char dev_name[10];};$/;"	m	struct:ip_from_proc
+dev_name	defs.h	/^	char dev_name[10];};$/;"	m	struct:ruta_from_proc
+direccion	defs.h	/^{	struct in6_addr direccion;$/;"	m	struct:ip_from_proc
+doit	rtnetlink.h	/^	int (*doit)(struct sk_buff *, struct nlmsghdr*, void *attr);$/;"	m	struct:rtnetlink_link
+done	netlink.h	/^	int		(*done)(struct netlink_callback *cb);$/;"	m	struct:netlink_callback
+dst_groups	netlink.h	/^	__u32			dst_groups;$/;"	m	struct:netlink_skb_parms
+dst_len	defs.h	/^	unsigned int dst_len;$/;"	m	struct:ruta_from_proc
+dst_network	defs.h	/^	struct in6_addr dst_network;$/;"	m	struct:ruta_from_proc
+dst_pid	netlink.h	/^	__u32			dst_pid;$/;"	m	struct:netlink_skb_parms
+dump	libnetlink.h	/^	__u32			dump;$/;"	m	struct:rtnl_handle
+dump	netlink.h	/^	int		(*dump)(struct sk_buff * skb, struct netlink_callback *cb);$/;"	m	struct:netlink_callback
+dumpit	rtnetlink.h	/^	int (*dumpit)(struct sk_buff *, struct netlink_callback *cb);$/;"	m	struct:rtnetlink_link
+eff_cap	netlink.h	/^	kernel_cap_t		eff_cap;$/;"	m	struct:netlink_skb_parms
+err_quit	nl.h	/^int err_quit(char *quitmsg)$/;"	f
+err_warn	nl.h	/^int err_warn(char *warnmsg)$/;"	f
+error	netlink.h	/^	int		error;$/;"	m	struct:nlmsgerr
+family	netlink.h	/^	int		family;$/;"	m	struct:netlink_callback
+fd	libnetlink.h	/^	int			fd;$/;"	m	struct:rtnl_handle
+fillnl	nl.h	/^inline void fillnl(struct nlmsghdr *nlmsghdr, int len, int type, int flags, int seq, pid_t pid)$/;"	f
+filter	ip2hack.h	/^} filter;$/;"	v
+flags	defs.h	/^	int flags;$/;"	m	struct:ip_from_proc
+flags	defs.h	/^	unsigned int flags;$/;"	m	struct:ruta_from_proc
+flags	nl.h	/^	u_int	flags;$/;"	m	struct:iface_info
+flush_update	ip2hack.h	/^static int flush_update(void)$/;"	f
+flushb	ip2hack.h	/^	char *flushb;$/;"	m
+flushe	ip2hack.h	/^	int flushe;$/;"	m
+flushed	ip2hack.h	/^	int flushed;$/;"	m
+flushp	ip2hack.h	/^	int flushp;$/;"	m
+gateway	nl.h	/^	u_int	gateway;	\/\/the gateway it's destined for$/;"	m	struct:rt_entry
+groups	netlink.h	/^	__u32			groups;$/;"	m	struct:netlink_skb_parms
+gtable	defs_pim6dd.h	574;"	d
+hw_brd	nl.h	/^	struct ether_addr hw_brd;$/;"	m	struct:iface_info
+hw_uni	nl.h	/^	struct ether_addr hw_uni;$/;"	m	struct:iface_info
+i	defs.h	/^typedef union { u_char i[16]; } ip_buf; \/\/128 bits para guardar una IP$/;"	m
+ifa_cacheinfo	rtnetlink.h	/^struct ifa_cacheinfo$/;"	s
+ifa_family	rtnetlink.h	/^	unsigned char	ifa_family;$/;"	m	struct:ifaddrmsg
+ifa_flags	rtnetlink.h	/^	unsigned char	ifa_flags;	\/* Flags			*\/$/;"	m	struct:ifaddrmsg
+ifa_index	rtnetlink.h	/^	int		ifa_index;	\/* Link index			*\/$/;"	m	struct:ifaddrmsg
+ifa_prefered	rtnetlink.h	/^	__s32	ifa_prefered;$/;"	m	struct:ifa_cacheinfo
+ifa_prefixlen	rtnetlink.h	/^	unsigned char	ifa_prefixlen;	\/* The prefix length		*\/$/;"	m	struct:ifaddrmsg
+ifa_scope	rtnetlink.h	/^	unsigned char	ifa_scope;	\/* See above			*\/$/;"	m	struct:ifaddrmsg
+ifa_valid	rtnetlink.h	/^	__s32	ifa_valid;$/;"	m	struct:ifa_cacheinfo
+iface_info	nl.h	/^struct iface_info{$/;"	s
+iface_mini	nl.h	/^struct iface_mini{$/;"	s
+iface_stats	nl.h	/^struct iface_stats{$/;"	s
+ifaddrmsg	rtnetlink.h	/^struct ifaddrmsg$/;"	s
+ifi_change	rtnetlink.h	/^	unsigned	ifi_change;		\/* IFF_* change mask *\/$/;"	m	struct:ifinfomsg
+ifi_family	rtnetlink.h	/^	unsigned char	ifi_family;$/;"	m	struct:ifinfomsg
+ifi_flags	rtnetlink.h	/^	unsigned	ifi_flags;		\/* IFF_* flags	*\/$/;"	m	struct:ifinfomsg
+ifi_index	rtnetlink.h	/^	int		ifi_index;		\/* Link index	*\/$/;"	m	struct:ifinfomsg
+ifi_type	rtnetlink.h	/^	unsigned short	ifi_type;		\/* ARPHRD_* *\/$/;"	m	struct:ifinfomsg
+ifinfomsg	rtnetlink.h	/^struct ifinfomsg$/;"	s
+ihfunc_t	defs_pim6dd.h	/^typedef void (*ihfunc_t) __P((int, fd_set *));$/;"	t
+iif	ip2hack.h	/^	int iif, iifmask;$/;"	m
+iifmask	ip2hack.h	/^	int iif, iifmask;$/;"	m
+iifname	nl.h	/^	char	iifname[IF_NAMESIZE];	\/\/incoming interface$/;"	m	struct:rt_entry
+index	nl.h	/^	u_int	index;$/;"	m	struct:iface_info
+installedby	nl.h	/^	char 	installedby[INS_LEN];	\/\/kernel, admin, at boot$/;"	m	struct:rt_entry
+interfaz	defs.h	/^	IFS_interfaz_t interfaz[50];};$/;"	m	struct:interficies_ip
+interficies_ip	defs.h	/^struct interficies_ip$/;"	s
+ip_buf	defs.h	/^typedef union { u_char i[16]; } ip_buf; \/\/128 bits para guardar una IP$/;"	t
+ip_from_proc	defs.h	/^struct ip_from_proc$/;"	s
+iproute_get	ip_functions.c	/^int iproute_get(int argc, char **argv)$/;"	f
+iproute_reset_filter	ip2hack.h	/^void iproute_reset_filter()$/;"	f
+laddr	nl.h	/^	u_int	laddr;	\/\/local$/;"	m	struct:iface_mini
+local	libnetlink.h	/^	struct sockaddr_nl	local;$/;"	m	struct:rtnl_handle
+mask	defs.h	/^	int mask;$/;"	m	struct:ip_from_proc
+max	defs_pim6dd.h	131;"	d
+mdst	ip2hack.h	/^	inet_prefix mdst;$/;"	m
+metric	defs.h	/^	unsigned int metric;$/;"	m	struct:ruta_from_proc
+min	defs_pim6dd.h	132;"	d
+msg	netlink.h	/^	struct nlmsghdr msg;$/;"	m	struct:nlmsgerr
+msrc	ip2hack.h	/^	inet_prefix msrc;$/;"	m
+mtu	nl.h	/^	u_int	mtu;$/;"	m	struct:iface_info
+name	nl.h	/^	char	name[IF_NAMESIZE];$/;"	m	struct:iface_info
+name	nl.h	/^	char	name[IF_NAMESIZE];$/;"	m	struct:iface_mini
+nda_cacheinfo	rtnetlink.h	/^struct nda_cacheinfo$/;"	s
+ndm_confirmed	rtnetlink.h	/^	__u32		ndm_confirmed;$/;"	m	struct:nda_cacheinfo
+ndm_family	rtnetlink.h	/^	unsigned char	ndm_family;$/;"	m	struct:ndmsg
+ndm_flags	rtnetlink.h	/^	__u8		ndm_flags;$/;"	m	struct:ndmsg
+ndm_ifindex	rtnetlink.h	/^	int		ndm_ifindex;	\/* Link index			*\/$/;"	m	struct:ndmsg
+ndm_pad1	rtnetlink.h	/^	unsigned char	ndm_pad1;$/;"	m	struct:ndmsg
+ndm_pad2	rtnetlink.h	/^	unsigned short	ndm_pad2;$/;"	m	struct:ndmsg
+ndm_refcnt	rtnetlink.h	/^	__u32		ndm_refcnt;$/;"	m	struct:nda_cacheinfo
+ndm_state	rtnetlink.h	/^	__u16		ndm_state;$/;"	m	struct:ndmsg
+ndm_type	rtnetlink.h	/^	__u8		ndm_type;$/;"	m	struct:ndmsg
+ndm_updated	rtnetlink.h	/^	__u32		ndm_updated;$/;"	m	struct:nda_cacheinfo
+ndm_used	rtnetlink.h	/^	__u32		ndm_used;$/;"	m	struct:nda_cacheinfo
+ndmsg	rtnetlink.h	/^struct ndmsg$/;"	s
+netlink_callback	netlink.h	/^struct netlink_callback$/;"	s
+netlink_notify	netlink.h	/^struct netlink_notify$/;"	s
+netlink_skb_parms	netlink.h	/^struct netlink_skb_parms$/;"	s
+netmask	nl.h	/^	u_int	netmask;$/;"	m	struct:iface_info
+next	nl.h	/^	struct iface_info	*next;$/;"	m	struct:iface_info
+next	nl.h	/^	struct rt_entry	*next;$/;"	m	struct:rt_entry
+nh_network	defs.h	/^	struct in6_addr nh_network; \/*nexthop*\/$/;"	m	struct:ruta_from_proc
+nl_dev_number	defs.h	/^	int nl_dev_number;$/;"	m	struct:ip_from_proc
+nl_family	netlink.h	/^	sa_family_t	nl_family;	\/* AF_NETLINK	*\/$/;"	m	struct:sockaddr_nl
+nl_groups	netlink.h	/^       	__u32		nl_groups;	\/* multicast groups mask *\/$/;"	m	struct:sockaddr_nl
+nl_pad	netlink.h	/^	unsigned short	nl_pad;		\/* zero		*\/$/;"	m	struct:sockaddr_nl
+nl_pid	netlink.h	/^	__u32		nl_pid;		\/* process pid	*\/$/;"	m	struct:sockaddr_nl
+nlh	netlink.h	/^	struct nlmsghdr	*nlh;$/;"	m	struct:netlink_callback
+nlmsg_flags	netlink.h	/^	__u16		nlmsg_flags;	\/* Additional flags *\/$/;"	m	struct:nlmsghdr
+nlmsg_len	netlink.h	/^	__u32		nlmsg_len;	\/* Length of message including header *\/$/;"	m	struct:nlmsghdr
+nlmsg_pid	netlink.h	/^	__u32		nlmsg_pid;	\/* Sending process PID *\/$/;"	m	struct:nlmsghdr
+nlmsg_seq	netlink.h	/^	__u32		nlmsg_seq;	\/* Sequence number *\/$/;"	m	struct:nlmsghdr
+nlmsg_type	netlink.h	/^	__u16		nlmsg_type;	\/* Message content *\/$/;"	m	struct:nlmsghdr
+nlmsgerr	netlink.h	/^struct nlmsgerr$/;"	s
+nlmsghdr	netlink.h	/^struct nlmsghdr$/;"	s
+oif	ip2hack.h	/^	int oif, oifmask;$/;"	m
+oifmask	ip2hack.h	/^	int oif, oifmask;$/;"	m
+oifname	nl.h	/^	char	oifname[IF_NAMESIZE];	\/\/outgoing interface$/;"	m	struct:rt_entry
+peer	libnetlink.h	/^	struct sockaddr_nl	peer;$/;"	m	struct:rtnl_handle
+perr_quit	nl.h	/^int perr_quit(char *quitmsg)$/;"	f
+pid	netlink.h	/^	__u32			pid;$/;"	m	struct:netlink_skb_parms
+pid	netlink.h	/^	int pid;$/;"	m	struct:netlink_notify
+precv	nl.h	91;"	d
+print_route	ip_functions.c	/^int print_route(struct sockaddr_nl *who, struct nlmsghdr *n, void *arg)$/;"	f
+protocol	ip2hack.h	/^	int protocol, protocolmask;$/;"	m
+protocol	netlink.h	/^	int protocol;$/;"	m	struct:netlink_notify
+protocolmask	ip2hack.h	/^	int protocol, protocolmask;$/;"	m
+psent	nl.h	92;"	d
+rbytes	nl.h	/^	int	rbytes;	\/\/recieved bytes$/;"	m	struct:iface_stats
+rdrops	nl.h	/^	int	rdrops;	\/\/dropped$/;"	m	struct:iface_stats
+rdst	ip2hack.h	/^	inet_prefix rdst;$/;"	m
+readnl	nl.h	/^readnl(int sock, char *buf, int seq, pid_t pid)$/;"	f
+realm	ip2hack.h	/^	int realm, realmmask;$/;"	m
+realmmask	ip2hack.h	/^	int realm, realmmask;$/;"	m
+ref	defs.h	/^	unsigned int ref;$/;"	m	struct:ruta_from_proc
+rerrs	nl.h	/^	int	rerrs;	\/\/errors$/;"	m	struct:iface_stats
+resolve_hosts	ip2hack.h	/^int resolve_hosts;$/;"	v
+rmulti	nl.h	/^	int	rmulti;	\/\/multicast$/;"	m	struct:iface_stats
+rpacks	nl.h	/^	int	rpacks;	\/\/packets$/;"	m	struct:iface_stats
+rprefsrc	ip2hack.h	/^	inet_prefix rprefsrc;$/;"	m
+rproto	nl.h	/^char    *rproto[] = {$/;"	v
+rsrc	ip2hack.h	/^	inet_prefix rsrc;$/;"	m
+rt_class_t	rtnetlink.h	/^enum rt_class_t$/;"	g
+rt_entry	nl.h	/^struct rt_entry{$/;"	s
+rt_scope_t	rtnetlink.h	/^enum rt_scope_t$/;"	g
+rta_cacheinfo	rtnetlink.h	/^struct rta_cacheinfo$/;"	s
+rta_clntref	rtnetlink.h	/^	__u32	rta_clntref;$/;"	m	struct:rta_cacheinfo
+rta_error	rtnetlink.h	/^	__u32	rta_error;$/;"	m	struct:rta_cacheinfo
+rta_expires	rtnetlink.h	/^	__s32	rta_expires;$/;"	m	struct:rta_cacheinfo
+rta_id	rtnetlink.h	/^	__u32	rta_id;$/;"	m	struct:rta_cacheinfo
+rta_lastuse	rtnetlink.h	/^	__u32	rta_lastuse;$/;"	m	struct:rta_cacheinfo
+rta_len	rtnetlink.h	/^	unsigned short	rta_len;$/;"	m	struct:rtattr
+rta_ts	rtnetlink.h	/^	__u32	rta_ts;$/;"	m	struct:rta_cacheinfo
+rta_tsage	rtnetlink.h	/^	__u32	rta_tsage;$/;"	m	struct:rta_cacheinfo
+rta_type	rtnetlink.h	/^	unsigned short	rta_type;$/;"	m	struct:rtattr
+rta_used	rtnetlink.h	/^	__u32	rta_used;$/;"	m	struct:rta_cacheinfo
+rtattr	nl.h	/^char    *rtattr[] = {$/;"	v
+rtattr	rtnetlink.h	/^struct rtattr$/;"	s
+rtattr_strcmp	rtnetlink.h	/^static __inline__ int rtattr_strcmp(struct rtattr *rta, char *str)$/;"	f
+rtattr_type_t	rtnetlink.h	/^enum rtattr_type_t$/;"	g
+rtentry	defs_pim6dd.h	89;"	d
+rtentry	defs_pim6dd.h	91;"	d
+rtgen_family	rtnetlink.h	/^	unsigned char		rtgen_family;$/;"	m	struct:rtgenmsg
+rtgenmsg	rtnetlink.h	/^struct rtgenmsg$/;"	s
+rth	ip2hack.h	/^	struct rtnl_handle *rth;$/;"	m
+rtm_dst_len	rtnetlink.h	/^	unsigned char		rtm_dst_len;$/;"	m	struct:rtmsg
+rtm_family	rtnetlink.h	/^	unsigned char		rtm_family;$/;"	m	struct:rtmsg
+rtm_flags	rtnetlink.h	/^	unsigned		rtm_flags;$/;"	m	struct:rtmsg
+rtm_protocol	rtnetlink.h	/^	unsigned char		rtm_protocol;	\/* Routing protocol; see below	*\/$/;"	m	struct:rtmsg
+rtm_scope	rtnetlink.h	/^	unsigned char		rtm_scope;	\/* See below *\/	$/;"	m	struct:rtmsg
+rtm_src_len	rtnetlink.h	/^	unsigned char		rtm_src_len;$/;"	m	struct:rtmsg
+rtm_table	rtnetlink.h	/^	unsigned char		rtm_table;	\/* Routing table id *\/$/;"	m	struct:rtmsg
+rtm_tos	rtnetlink.h	/^	unsigned char		rtm_tos;$/;"	m	struct:rtmsg
+rtm_type	rtnetlink.h	/^	unsigned char		rtm_type;	\/* See below	*\/$/;"	m	struct:rtmsg
+rtmsg	rtnetlink.h	/^struct rtmsg$/;"	s
+rtnetlink_link	rtnetlink.h	/^struct rtnetlink_link$/;"	s
+rtnexthop	rtnetlink.h	/^struct rtnexthop$/;"	s
+rtnh_flags	rtnetlink.h	/^	unsigned char		rtnh_flags;$/;"	m	struct:rtnexthop
+rtnh_hops	rtnetlink.h	/^	unsigned char		rtnh_hops;$/;"	m	struct:rtnexthop
+rtnh_ifindex	rtnetlink.h	/^	int			rtnh_ifindex;$/;"	m	struct:rtnexthop
+rtnh_len	rtnetlink.h	/^	unsigned short		rtnh_len;$/;"	m	struct:rtnexthop
+rtnl_exlock	rtnetlink.h	574;"	d
+rtnl_exlock_nowait	rtnetlink.h	576;"	d
+rtnl_exunlock	rtnetlink.h	575;"	d
+rtnl_handle	libnetlink.h	/^struct rtnl_handle$/;"	s
+rtnl_rtntype_a2n	ip_functions.c	/^int rtnl_rtntype_a2n(int *id, char *arg)$/;"	f
+rtnl_rtntype_n2a	ip_functions.c	/^char *rtnl_rtntype_n2a(int id, char *buf, int len)$/;"	f
+rtnl_shlock	rtnetlink.h	578;"	d
+rtnl_shlock_nowait	rtnetlink.h	579;"	d
+rtnl_shunlock	rtnetlink.h	581;"	d
+rtypes	nl.h	/^char    *rtypes[] = {$/;"	v
+ruta	defs.h	/^	RT_ruta_t ruta[100];};$/;"	m	struct:rutas_ip
+ruta_from_proc	defs.h	/^struct ruta_from_proc$/;"	s
+rutas_ip	defs.h	/^struct rutas_ip$/;"	s
+rvia	ip2hack.h	/^	inet_prefix rvia;$/;"	m
+sbytes	nl.h	/^        int     sbytes;	\/\/sent$/;"	m	struct:iface_stats
+scope	defs.h	/^	int scope;$/;"	m	struct:ip_from_proc
+scope	ip2hack.h	/^	int scope, scopemask;$/;"	m
+scope	nl.h	/^	char	scope[SCOPE_LEN];	\/\/scope(local, external)$/;"	m	struct:rt_entry
+scopemask	ip2hack.h	/^	int scope, scopemask;$/;"	m
+sdrops	nl.h	/^        int     sdrops;$/;"	m	struct:iface_stats
+seq	libnetlink.h	/^	__u32			seq;$/;"	m	struct:rtnl_handle
+serrs	nl.h	/^        int     serrs;$/;"	m	struct:iface_stats
+setlinebuf	defs_pim6dd.h	208;"	d
+show_stats	ip2hack.h	/^int show_stats=3;$/;"	v
+skb	netlink.h	/^	struct sk_buff	*skb;$/;"	m	struct:netlink_callback
+smulti	nl.h	/^        int     smulti;$/;"	m	struct:iface_stats
+sockaddr_nl	netlink.h	/^struct sockaddr_nl$/;"	s
+spacks	nl.h	/^        int     spacks;$/;"	m	struct:iface_stats
+src_len	defs.h	/^	unsigned int src_len;$/;"	m	struct:ruta_from_proc
+src_network	defs.h	/^	struct in6_addr src_network;$/;"	m	struct:ruta_from_proc
+srcaddr	nl.h	/^	u_int	srcaddr;	\/\/the optional preferred source address$/;"	m	struct:rt_entry
+stats	nl.h	/^	struct iface_stats	stats;$/;"	m	struct:iface_info
+tb	ip2hack.h	/^	int tb;$/;"	m
+tcm__pad1	rtnetlink.h	/^	unsigned char	tcm__pad1;$/;"	m	struct:tcmsg
+tcm__pad2	rtnetlink.h	/^	unsigned short	tcm__pad2;$/;"	m	struct:tcmsg
+tcm_family	rtnetlink.h	/^	unsigned char	tcm_family;$/;"	m	struct:tcmsg
+tcm_handle	rtnetlink.h	/^	__u32		tcm_handle;$/;"	m	struct:tcmsg
+tcm_ifindex	rtnetlink.h	/^	int		tcm_ifindex;$/;"	m	struct:tcmsg
+tcm_info	rtnetlink.h	/^	__u32		tcm_info;$/;"	m	struct:tcmsg
+tcm_parent	rtnetlink.h	/^	__u32		tcm_parent;$/;"	m	struct:tcmsg
+tcmsg	rtnetlink.h	/^struct tcmsg$/;"	s
+tos	ip2hack.h	/^	int tos, tosmask;$/;"	m
+tosmask	ip2hack.h	/^	int tos, tosmask;$/;"	m
+type	ip2hack.h	/^	int type, typemask;$/;"	m
+type	nl.h	/^	char	type[TYPE_LEN];		\/\/type(unicast\/broadcast\/)$/;"	m	struct:rt_entry
+typemask	ip2hack.h	/^	int type, typemask;$/;"	m
+u_int16	defs_pim6dd.h	/^typedef u_short u_int16;$/;"	t
+u_int32	defs_pim6dd.h	/^typedef u_int   u_int32;$/;"	t
+u_int8	defs_pim6dd.h	/^typedef u_char  u_int8;$/;"	t
+uni_addr	nl.h	/^	u_int	uni_addr;$/;"	m	struct:iface_info
+use	defs.h	/^	unsigned int use;$/;"	m	struct:ruta_from_proc

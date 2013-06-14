@@ -1,0 +1,1031 @@
+GUIclient.o GUIclient.o: GUIclient.cpp GUIclient.h \
+  /home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/trunkclient.h \
+  /home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/phonemanager.h \
+  /home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/sipuserdata.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/string \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/c++config.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/gnu/stubs.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stringfwd.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/char_traits.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cstring \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cstddef \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/stddef.h \
+  /usr/include/string.h /usr/include/xlocale.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/fpos.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/c++io.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cstdio \
+  /usr/include/stdio.h /usr/include/bits/types.h \
+  /usr/include/bits/wordsize.h /usr/include/bits/typesizes.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/include/bits/wchar.h /usr/include/gconv.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/gthr.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h \
+  /usr/include/bits/sched.h /usr/include/bits/time.h \
+  /usr/include/signal.h /usr/include/bits/sigset.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/initspin.h \
+  /usr/include/bits/sigthread.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cwchar \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/ctime \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/memory \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_algobase.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/climits \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/limits.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/syslimits.h \
+  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cstdlib \
+  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/types.h \
+  /usr/include/sys/select.h /usr/include/bits/select.h \
+  /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/new \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/exception \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/iosfwd \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/c++locale.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/clocale \
+  /usr/include/locale.h /usr/include/bits/locale.h \
+  /usr/include/langinfo.h /usr/include/nl_types.h /usr/include/iconv.h \
+  /usr/include/libintl.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cctype \
+  /usr/include/ctype.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/functexcept.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/exception_defines.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_pair.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/type_traits.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_iterator_base_types.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_iterator_base_funcs.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/concept_check.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_iterator.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_alloc.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_threads.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/atomicity.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_construct.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_uninitialized.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_raw_storage_iter.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_function.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/basic_string.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/algorithm \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_algo.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_heap.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_tempbuf.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/basic_string.tcc \
+  /home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/observer.h \
+  /home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/remotecommsocket.h \
+  /home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/observable.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/set \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_tree.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_set.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_multiset.h \
+  /usr/local/sipx/include/os/OsConnectionSocket.h \
+  /usr/local/sipx/include/os/OsSocket.h \
+  /usr/local/sipx/include/os/OsDefs.h \
+  /usr/local/sipx/include/os/linux/OsLinuxDefs.h /usr/include/errno.h \
+  /usr/include/bits/errno.h /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/local/sipx/include/utl/UtlString.h \
+  /usr/local/sipx/include/utl/UtlDefs.h \
+  /usr/local/sipx/include/utl/UtlContainable.h \
+  /usr/local/sipx/include/os/OsServerSocket.h \
+  /usr/local/sipx/include/os/OsTask.h /usr/local/sipx/include/os/OsMsgQ.h \
+  /usr/local/sipx/include/os/OsStatus.h \
+  /usr/local/sipx/include/os/OsTime.h \
+  /usr/local/sipx/include/os/shared/OsMsgQShared.h \
+  /usr/local/sipx/include/os/OsCSem.h \
+  /usr/local/sipx/include/os/OsSyncBase.h \
+  /usr/local/sipx/include/os/OsBSem.h \
+  /usr/local/sipx/include/os/linux/OsBSemLinux.h \
+  /usr/local/sipx/include/os/linux/pt_csem.h \
+  /usr/local/sipx/include/os/linux/OsCSemLinux.h \
+  /usr/local/sipx/include/os/OsMsg.h /usr/local/sipx/include/os/OsMutex.h \
+  /usr/local/sipx/include/os/linux/OsMutexLinux.h \
+  /usr/local/sipx/include/os/linux/pt_mutex.h \
+  /usr/local/sipx/include/utl/UtlDList.h \
+  /usr/local/sipx/include/utl/UtlSList.h \
+  /usr/local/sipx/include/utl/UtlList.h \
+  /usr/local/sipx/include/utl/UtlContainer.h /usr/include/glib-2.0/glib.h \
+  /usr/include/glib-2.0/glib/galloca.h \
+  /usr/include/glib-2.0/glib/gtypes.h \
+  /usr/lib/glib-2.0/include/glibconfig.h \
+  /usr/include/glib-2.0/glib/gmacros.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/float.h \
+  /usr/include/glib-2.0/glib/garray.h \
+  /usr/include/glib-2.0/glib/gasyncqueue.h \
+  /usr/include/glib-2.0/glib/gthread.h \
+  /usr/include/glib-2.0/glib/gerror.h /usr/include/glib-2.0/glib/gquark.h \
+  /usr/include/glib-2.0/glib/gatomic.h \
+  /usr/include/glib-2.0/glib/gbacktrace.h \
+  /usr/include/glib-2.0/glib/gcache.h /usr/include/glib-2.0/glib/glist.h \
+  /usr/include/glib-2.0/glib/gmem.h \
+  /usr/include/glib-2.0/glib/gcompletion.h \
+  /usr/include/glib-2.0/glib/gconvert.h \
+  /usr/include/glib-2.0/glib/gdataset.h \
+  /usr/include/glib-2.0/glib/gdate.h /usr/include/glib-2.0/glib/gdir.h \
+  /usr/include/glib-2.0/glib/gfileutils.h \
+  /usr/include/glib-2.0/glib/ghash.h /usr/include/glib-2.0/glib/ghook.h \
+  /usr/include/glib-2.0/glib/giochannel.h \
+  /usr/include/glib-2.0/glib/gmain.h /usr/include/glib-2.0/glib/gslist.h \
+  /usr/include/glib-2.0/glib/gstring.h \
+  /usr/include/glib-2.0/glib/gunicode.h \
+  /usr/include/glib-2.0/glib/gutils.h \
+  /usr/include/glib-2.0/glib/gkeyfile.h \
+  /usr/include/glib-2.0/glib/gmarkup.h \
+  /usr/include/glib-2.0/glib/gmessages.h \
+  /usr/include/glib-2.0/glib/gnode.h /usr/include/glib-2.0/glib/goption.h \
+  /usr/include/glib-2.0/glib/gpattern.h \
+  /usr/include/glib-2.0/glib/gprimes.h \
+  /usr/include/glib-2.0/glib/gqsort.h /usr/include/glib-2.0/glib/gqueue.h \
+  /usr/include/glib-2.0/glib/grand.h /usr/include/glib-2.0/glib/grel.h \
+  /usr/include/glib-2.0/glib/gscanner.h \
+  /usr/include/glib-2.0/glib/gshell.h /usr/include/glib-2.0/glib/gspawn.h \
+  /usr/include/glib-2.0/glib/gstrfuncs.h \
+  /usr/include/glib-2.0/glib/gthreadpool.h \
+  /usr/include/glib-2.0/glib/gtimer.h /usr/include/glib-2.0/glib/gtree.h \
+  /usr/local/sipx/include/os/OsSysLog.h \
+  /usr/local/sipx/include/os/OsSysLogFacilities.h \
+  /usr/local/sipx/include/os/linux/OsTaskLinux.h \
+  /usr/local/sipx/include/os/OsRWMutex.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/iostream \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/ostream \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/ios \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/localefwd.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/ios_base.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/locale_classes.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/streambuf \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/streambuf.tcc \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/basic_ios.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/streambuf_iterator.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/locale_facets.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cwctype \
+  /usr/include/wctype.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/ctype_base.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/codecvt.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/codecvt_specializations.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/time_members.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/messages_members.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/basic_ios.tcc \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/ostream.tcc \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/locale \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/locale_facets.tcc \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cerrno \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cmath \
+  /usr/include/math.h /usr/include/bits/huge_val.h \
+  /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+  /usr/include/bits/inf.h /usr/include/bits/nan.h \
+  /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathinline.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/cmath.tcc \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/limits \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/typeinfo \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/istream \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/istream.tcc \
+  /home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/phonelines.h \
+  /usr/local/sipx/include/os/OsConfigDb.h \
+  /usr/local/sipx/include/utl/UtlSortedList.h \
+  /usr/local/sipx/include/net/SipUserAgent.h \
+  /usr/local/sipx/include/utl/UtlHashBag.h \
+  /usr/local/sipx/include/os/OsServerTask.h \
+  /usr/local/sipx/include/net/SipUserAgentBase.h \
+  /usr/local/sipx/include/net/SipMessage.h \
+  /usr/local/sipx/include/net/HttpMessage.h \
+  /usr/local/sipx/include/net/HttpBody.h \
+  /usr/local/sipx/include/net/NameValuePair.h \
+  /usr/local/sipx/include/os/OsTimeLog.h \
+  /usr/local/sipx/include/net/SdpBody.h \
+  /usr/local/sipx/include/utl/UtlSListIterator.h \
+  /usr/local/sipx/include/utl/UtlListIterator.h \
+  /usr/local/sipx/include/utl/UtlIterator.h \
+  /usr/local/sipx/include/net/SdpCodec.h \
+  /usr/local/sipx/include/utl/UtlInt.h /usr/local/sipx/include/net/Url.h \
+  /usr/local/sipx/include/net/SipMessageEvent.h \
+  /usr/local/sipx/include/net/SipTransactionList.h \
+  /usr/local/sipx/include/net/SipTransaction.h \
+  /usr/local/sipx/include/net/SipSrvLookup.h /usr/include/netinet/in.h \
+  /usr/include/stdint.h /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/bits/uio.h /usr/include/bits/socket.h \
+  /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+  /usr/include/asm/sockios.h /usr/include/bits/in.h \
+  /usr/include/bits/byteswap.h /usr/local/sipx/include/net/SipUdpServer.h \
+  /usr/local/sipx/include/os/OsDatagramSocket.h \
+  /usr/local/sipx/include/net/SipProtocolServerBase.h \
+  /usr/local/sipx/include/net/SipClient.h \
+  /usr/local/sipx/include/os/OsLockingList.h \
+  /usr/local/sipx/include/utl/UtlDListIterator.h \
+  /usr/local/sipx/include/utl/UtlVoidPtr.h \
+  /usr/local/sipx/include/net/SipLineMgr.h \
+  /usr/local/sipx/include/net/SipLine.h \
+  /usr/local/sipx/include/net/SipLineList.h \
+  /usr/local/sipx/include/os/OsReadLock.h \
+  /usr/local/sipx/include/os/OsWriteLock.h \
+  /usr/local/sipx/include/net/SipLineEvent.h \
+  /usr/local/sipx/include/net/SipRefreshMgr.h \
+  /usr/local/sipx/include/net/SipTcpServer.h \
+  /usr/local/sipx/include/net/SipMessageList.h \
+  /usr/local/sipx/include/utl/UtlRandom.h \
+  /usr/local/sipx/include/net/NetMd5Codec.h \
+  /home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/siplistener.h \
+  /home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/sipphonedata.h \
+  /home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/sessiondata.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/vector \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_vector.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_bvector.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/vector.tcc \
+  /home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/rtpmediaparametersdata.h \
+  /usr/local/sipx/include/os/OsDateTime.h \
+  /usr/local/sipx/include/os/linux/OsDateTimeLinux.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/map \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_map.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_multimap.h \
+  /home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/linetupla.h \
+  /home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/phonesessions.h \
+  /home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/sessiontupla.h \
+  /home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/rtplistener.h \
+  /usr/local/include/jvoiplib/jvoipsession.h \
+  /usr/local/include/jvoiplib/jvoipconfig.h \
+  /usr/local/include/jvoiplib/jvoiptypes.h \
+  /usr/local/include/jvoiplib/jvoipexception.h \
+  /usr/local/include/jvoiplib/jvoipsessionparams.h \
+  /usr/local/include/jvoiplib/jvoiperrors.h \
+  /usr/local/include/jvoiplib/jvoipcomponentparams.h \
+  /usr/local/include/jvoiplib/jvoipthread.h \
+  /usr/local/include/jthread/jthread.h \
+  /usr/local/include/jthread/jmutex.h \
+  /usr/local/include/jvoiplib/jvoipsamplingtimer.h \
+  /usr/local/include/jvoiplib/samplingtimer.h \
+  /usr/local/include/jvoiplib/jvoipcomponent.h \
+  /usr/local/include/jvoiplib/voicecall.h /usr/include/sys/time.h \
+  /usr/local/include/jvoiplib/jvoiprtptransmission.h \
+  /usr/local/include/jvoiplib/jvoiptransmission.h \
+  /usr/local/include/jvoiplib/voicetransmitter.h \
+  /usr/local/include/jvoiplib/voicetypes.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/list \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_list.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/list.tcc \
+  /usr/include/arpa/inet.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/queue \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_deque.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_queue.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/deque.tcc \
+  /usr/local/sipx/include/xmlparser/tinyxml.h /usr/include/assert.h \
+  /usr/local/sipx/include/xmlparser/tinystr.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/fstream \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/basic_file.h \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/fstream.tcc \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/sstream \
+  /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/sstream.tcc \
+  /usr/include/fltk-1.1/FL/Fl.H /usr/include/fltk-1.1/FL/Enumerations.H \
+  /usr/include/fltk-1.1/FL/Fl_Export.H \
+  /usr/include/fltk-1.1/FL/Fl_Window.H \
+  /usr/include/fltk-1.1/FL/Fl_Group.H \
+  /usr/include/fltk-1.1/FL/Fl_Widget.H \
+  /usr/include/fltk-1.1/FL/Fl_Button.H \
+  /usr/include/fltk-1.1/FL/Fl_Return_Button.H \
+  /usr/include/fltk-1.1/FL/Fl_Input.H \
+  /usr/include/fltk-1.1/FL/Fl_Input_.H \
+  /usr/include/fltk-1.1/FL/Fl_Multiline_Output.H \
+  /usr/include/fltk-1.1/FL/Fl_Output.H \
+  /usr/include/fltk-1.1/FL/Fl_Secret_Input.H \
+  /usr/include/fltk-1.1/FL/Fl_Select_Browser.H \
+  /usr/include/fltk-1.1/FL/Fl_Browser.H \
+  /usr/include/fltk-1.1/FL/Fl_Browser_.H \
+  /usr/include/fltk-1.1/FL/Fl_Scrollbar.H \
+  /usr/include/fltk-1.1/FL/Fl_Slider.H \
+  /usr/include/fltk-1.1/FL/Fl_Valuator.H \
+  /usr/include/fltk-1.1/FL/Fl_Light_Button.H
+
+GUIclient.h:
+
+/home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/trunkclient.h:
+
+/home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/phonemanager.h:
+
+/home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/sipuserdata.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/string:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/c++config.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stringfwd.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/char_traits.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cstring:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cstddef:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/stddef.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/fpos.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/c++io.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cstdio:
+
+/usr/include/stdio.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/gconv.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/gthr.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/initspin.h:
+
+/usr/include/bits/sigthread.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cwchar:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/ctime:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/memory:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_algobase.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/climits:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/limits.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/alloca.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/new:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/exception:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/iosfwd:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/c++locale.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/langinfo.h:
+
+/usr/include/nl_types.h:
+
+/usr/include/iconv.h:
+
+/usr/include/libintl.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cctype:
+
+/usr/include/ctype.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/functexcept.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/exception_defines.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_pair.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/type_traits.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_iterator_base_types.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_iterator_base_funcs.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/concept_check.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_iterator.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_alloc.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_threads.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/atomicity.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_construct.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_uninitialized.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_raw_storage_iter.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_function.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/basic_string.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/algorithm:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_algo.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_heap.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_tempbuf.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/basic_string.tcc:
+
+/home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/observer.h:
+
+/home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/remotecommsocket.h:
+
+/home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/observable.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/set:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_tree.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_set.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_multiset.h:
+
+/usr/local/sipx/include/os/OsConnectionSocket.h:
+
+/usr/local/sipx/include/os/OsSocket.h:
+
+/usr/local/sipx/include/os/OsDefs.h:
+
+/usr/local/sipx/include/os/linux/OsLinuxDefs.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/local/sipx/include/utl/UtlString.h:
+
+/usr/local/sipx/include/utl/UtlDefs.h:
+
+/usr/local/sipx/include/utl/UtlContainable.h:
+
+/usr/local/sipx/include/os/OsServerSocket.h:
+
+/usr/local/sipx/include/os/OsTask.h:
+
+/usr/local/sipx/include/os/OsMsgQ.h:
+
+/usr/local/sipx/include/os/OsStatus.h:
+
+/usr/local/sipx/include/os/OsTime.h:
+
+/usr/local/sipx/include/os/shared/OsMsgQShared.h:
+
+/usr/local/sipx/include/os/OsCSem.h:
+
+/usr/local/sipx/include/os/OsSyncBase.h:
+
+/usr/local/sipx/include/os/OsBSem.h:
+
+/usr/local/sipx/include/os/linux/OsBSemLinux.h:
+
+/usr/local/sipx/include/os/linux/pt_csem.h:
+
+/usr/local/sipx/include/os/linux/OsCSemLinux.h:
+
+/usr/local/sipx/include/os/OsMsg.h:
+
+/usr/local/sipx/include/os/OsMutex.h:
+
+/usr/local/sipx/include/os/linux/OsMutexLinux.h:
+
+/usr/local/sipx/include/os/linux/pt_mutex.h:
+
+/usr/local/sipx/include/utl/UtlDList.h:
+
+/usr/local/sipx/include/utl/UtlSList.h:
+
+/usr/local/sipx/include/utl/UtlList.h:
+
+/usr/local/sipx/include/utl/UtlContainer.h:
+
+/usr/include/glib-2.0/glib.h:
+
+/usr/include/glib-2.0/glib/galloca.h:
+
+/usr/include/glib-2.0/glib/gtypes.h:
+
+/usr/lib/glib-2.0/include/glibconfig.h:
+
+/usr/include/glib-2.0/glib/gmacros.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/float.h:
+
+/usr/include/glib-2.0/glib/garray.h:
+
+/usr/include/glib-2.0/glib/gasyncqueue.h:
+
+/usr/include/glib-2.0/glib/gthread.h:
+
+/usr/include/glib-2.0/glib/gerror.h:
+
+/usr/include/glib-2.0/glib/gquark.h:
+
+/usr/include/glib-2.0/glib/gatomic.h:
+
+/usr/include/glib-2.0/glib/gbacktrace.h:
+
+/usr/include/glib-2.0/glib/gcache.h:
+
+/usr/include/glib-2.0/glib/glist.h:
+
+/usr/include/glib-2.0/glib/gmem.h:
+
+/usr/include/glib-2.0/glib/gcompletion.h:
+
+/usr/include/glib-2.0/glib/gconvert.h:
+
+/usr/include/glib-2.0/glib/gdataset.h:
+
+/usr/include/glib-2.0/glib/gdate.h:
+
+/usr/include/glib-2.0/glib/gdir.h:
+
+/usr/include/glib-2.0/glib/gfileutils.h:
+
+/usr/include/glib-2.0/glib/ghash.h:
+
+/usr/include/glib-2.0/glib/ghook.h:
+
+/usr/include/glib-2.0/glib/giochannel.h:
+
+/usr/include/glib-2.0/glib/gmain.h:
+
+/usr/include/glib-2.0/glib/gslist.h:
+
+/usr/include/glib-2.0/glib/gstring.h:
+
+/usr/include/glib-2.0/glib/gunicode.h:
+
+/usr/include/glib-2.0/glib/gutils.h:
+
+/usr/include/glib-2.0/glib/gkeyfile.h:
+
+/usr/include/glib-2.0/glib/gmarkup.h:
+
+/usr/include/glib-2.0/glib/gmessages.h:
+
+/usr/include/glib-2.0/glib/gnode.h:
+
+/usr/include/glib-2.0/glib/goption.h:
+
+/usr/include/glib-2.0/glib/gpattern.h:
+
+/usr/include/glib-2.0/glib/gprimes.h:
+
+/usr/include/glib-2.0/glib/gqsort.h:
+
+/usr/include/glib-2.0/glib/gqueue.h:
+
+/usr/include/glib-2.0/glib/grand.h:
+
+/usr/include/glib-2.0/glib/grel.h:
+
+/usr/include/glib-2.0/glib/gscanner.h:
+
+/usr/include/glib-2.0/glib/gshell.h:
+
+/usr/include/glib-2.0/glib/gspawn.h:
+
+/usr/include/glib-2.0/glib/gstrfuncs.h:
+
+/usr/include/glib-2.0/glib/gthreadpool.h:
+
+/usr/include/glib-2.0/glib/gtimer.h:
+
+/usr/include/glib-2.0/glib/gtree.h:
+
+/usr/local/sipx/include/os/OsSysLog.h:
+
+/usr/local/sipx/include/os/OsSysLogFacilities.h:
+
+/usr/local/sipx/include/os/linux/OsTaskLinux.h:
+
+/usr/local/sipx/include/os/OsRWMutex.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/iostream:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/ostream:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/ios:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/localefwd.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/ios_base.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/locale_classes.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/streambuf:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/streambuf.tcc:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/basic_ios.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/streambuf_iterator.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/locale_facets.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/ctype_base.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/ctype_inline.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/codecvt.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/codecvt_specializations.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/time_members.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/messages_members.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/basic_ios.tcc:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/ostream.tcc:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/locale:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/locale_facets.tcc:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cerrno:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/cmath:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/cmath.tcc:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/limits:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/typeinfo:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/istream:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/istream.tcc:
+
+/home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/phonelines.h:
+
+/usr/local/sipx/include/os/OsConfigDb.h:
+
+/usr/local/sipx/include/utl/UtlSortedList.h:
+
+/usr/local/sipx/include/net/SipUserAgent.h:
+
+/usr/local/sipx/include/utl/UtlHashBag.h:
+
+/usr/local/sipx/include/os/OsServerTask.h:
+
+/usr/local/sipx/include/net/SipUserAgentBase.h:
+
+/usr/local/sipx/include/net/SipMessage.h:
+
+/usr/local/sipx/include/net/HttpMessage.h:
+
+/usr/local/sipx/include/net/HttpBody.h:
+
+/usr/local/sipx/include/net/NameValuePair.h:
+
+/usr/local/sipx/include/os/OsTimeLog.h:
+
+/usr/local/sipx/include/net/SdpBody.h:
+
+/usr/local/sipx/include/utl/UtlSListIterator.h:
+
+/usr/local/sipx/include/utl/UtlListIterator.h:
+
+/usr/local/sipx/include/utl/UtlIterator.h:
+
+/usr/local/sipx/include/net/SdpCodec.h:
+
+/usr/local/sipx/include/utl/UtlInt.h:
+
+/usr/local/sipx/include/net/Url.h:
+
+/usr/local/sipx/include/net/SipMessageEvent.h:
+
+/usr/local/sipx/include/net/SipTransactionList.h:
+
+/usr/local/sipx/include/net/SipTransaction.h:
+
+/usr/local/sipx/include/net/SipSrvLookup.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/stdint.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/socket.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/bits/in.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/local/sipx/include/net/SipUdpServer.h:
+
+/usr/local/sipx/include/os/OsDatagramSocket.h:
+
+/usr/local/sipx/include/net/SipProtocolServerBase.h:
+
+/usr/local/sipx/include/net/SipClient.h:
+
+/usr/local/sipx/include/os/OsLockingList.h:
+
+/usr/local/sipx/include/utl/UtlDListIterator.h:
+
+/usr/local/sipx/include/utl/UtlVoidPtr.h:
+
+/usr/local/sipx/include/net/SipLineMgr.h:
+
+/usr/local/sipx/include/net/SipLine.h:
+
+/usr/local/sipx/include/net/SipLineList.h:
+
+/usr/local/sipx/include/os/OsReadLock.h:
+
+/usr/local/sipx/include/os/OsWriteLock.h:
+
+/usr/local/sipx/include/net/SipLineEvent.h:
+
+/usr/local/sipx/include/net/SipRefreshMgr.h:
+
+/usr/local/sipx/include/net/SipTcpServer.h:
+
+/usr/local/sipx/include/net/SipMessageList.h:
+
+/usr/local/sipx/include/utl/UtlRandom.h:
+
+/usr/local/sipx/include/net/NetMd5Codec.h:
+
+/home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/siplistener.h:
+
+/home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/sipphonedata.h:
+
+/home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/sessiondata.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/vector:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_vector.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_bvector.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/vector.tcc:
+
+/home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/rtpmediaparametersdata.h:
+
+/usr/local/sipx/include/os/OsDateTime.h:
+
+/usr/local/sipx/include/os/linux/OsDateTimeLinux.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/map:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_map.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_multimap.h:
+
+/home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/linetupla.h:
+
+/home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/phonesessions.h:
+
+/home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/sessiontupla.h:
+
+/home/marcos/Proyecto/source/common/iptrunking/src/phonemgr/rtplistener.h:
+
+/usr/local/include/jvoiplib/jvoipsession.h:
+
+/usr/local/include/jvoiplib/jvoipconfig.h:
+
+/usr/local/include/jvoiplib/jvoiptypes.h:
+
+/usr/local/include/jvoiplib/jvoipexception.h:
+
+/usr/local/include/jvoiplib/jvoipsessionparams.h:
+
+/usr/local/include/jvoiplib/jvoiperrors.h:
+
+/usr/local/include/jvoiplib/jvoipcomponentparams.h:
+
+/usr/local/include/jvoiplib/jvoipthread.h:
+
+/usr/local/include/jthread/jthread.h:
+
+/usr/local/include/jthread/jmutex.h:
+
+/usr/local/include/jvoiplib/jvoipsamplingtimer.h:
+
+/usr/local/include/jvoiplib/samplingtimer.h:
+
+/usr/local/include/jvoiplib/jvoipcomponent.h:
+
+/usr/local/include/jvoiplib/voicecall.h:
+
+/usr/include/sys/time.h:
+
+/usr/local/include/jvoiplib/jvoiprtptransmission.h:
+
+/usr/local/include/jvoiplib/jvoiptransmission.h:
+
+/usr/local/include/jvoiplib/voicetransmitter.h:
+
+/usr/local/include/jvoiplib/voicetypes.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/list:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_list.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/list.tcc:
+
+/usr/include/arpa/inet.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/queue:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_deque.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/stl_queue.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/deque.tcc:
+
+/usr/local/sipx/include/xmlparser/tinyxml.h:
+
+/usr/include/assert.h:
+
+/usr/local/sipx/include/xmlparser/tinystr.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/fstream:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/i686-pc-linux-gnu/bits/basic_file.h:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/fstream.tcc:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/sstream:
+
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/include/g++-v3/bits/sstream.tcc:
+
+/usr/include/fltk-1.1/FL/Fl.H:
+
+/usr/include/fltk-1.1/FL/Enumerations.H:
+
+/usr/include/fltk-1.1/FL/Fl_Export.H:
+
+/usr/include/fltk-1.1/FL/Fl_Window.H:
+
+/usr/include/fltk-1.1/FL/Fl_Group.H:
+
+/usr/include/fltk-1.1/FL/Fl_Widget.H:
+
+/usr/include/fltk-1.1/FL/Fl_Button.H:
+
+/usr/include/fltk-1.1/FL/Fl_Return_Button.H:
+
+/usr/include/fltk-1.1/FL/Fl_Input.H:
+
+/usr/include/fltk-1.1/FL/Fl_Input_.H:
+
+/usr/include/fltk-1.1/FL/Fl_Multiline_Output.H:
+
+/usr/include/fltk-1.1/FL/Fl_Output.H:
+
+/usr/include/fltk-1.1/FL/Fl_Secret_Input.H:
+
+/usr/include/fltk-1.1/FL/Fl_Select_Browser.H:
+
+/usr/include/fltk-1.1/FL/Fl_Browser.H:
+
+/usr/include/fltk-1.1/FL/Fl_Browser_.H:
+
+/usr/include/fltk-1.1/FL/Fl_Scrollbar.H:
+
+/usr/include/fltk-1.1/FL/Fl_Slider.H:
+
+/usr/include/fltk-1.1/FL/Fl_Valuator.H:
+
+/usr/include/fltk-1.1/FL/Fl_Light_Button.H:
